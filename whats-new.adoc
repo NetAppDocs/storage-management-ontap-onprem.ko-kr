@@ -4,7 +4,7 @@ permalink: whats-new.html
 keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, on-prem' 
 summary: BlueXP 에서 온프레미스 ONTAP 클러스터 관리의 새로운 기능에 대해 알아보세요. 
 ---
-= NetApp 콘솔의 온프레미스 ONTAP 클러스터에 대한 새로운 기능
+= NetApp Console 의 온프레미스 ONTAP 클러스터에 대한 새로운 기능
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: BlueXP 에서 온프레미스 ONTAP 클러스터 관리의 새로운 �
 
 
 [role="lead"]
-NetApp 콘솔에서 온프레미스 ONTAP 클러스터 관리의 새로운 기능에 대해 알아보세요.
+NetApp Console 에서 온프레미스 ONTAP 클러스터 관리의 새로운 기능에 대해 알아보세요.
 
 
 
@@ -22,11 +22,11 @@ NetApp 콘솔에서 온프레미스 ONTAP 클러스터 관리의 새로운 기�
 
 
 
-=== BlueXP 는 이제 NetApp 콘솔입니다.
+=== BlueXP 는 이제 NetApp Console 입니다.
 
-강화되고 재구성된 BlueXP 기반을 기반으로 구축된 NetApp 콘솔은 엔터프라이즈급 온프레미스 및 클라우드 환경 전반에서 NetApp 스토리지와 NetApp 데이터 서비스를 중앙에서 관리하여 실시간 통찰력, 더 빠른 워크플로, 간소화된 관리를 제공하며, 높은 보안성과 규정 준수를 보장합니다.
+강화되고 재구성된 BlueXP 기반을 기반으로 구축된 NetApp Console 엔터프라이즈급 온프레미스 및 클라우드 환경에서 NetApp 스토리지와 NetApp Data Services 중앙에서 관리하여 실시간 통찰력, 더 빠른 워크플로, 간소화된 관리를 제공하며, 높은 보안성과 규정 준수를 보장합니다.
 
-변경된 사항에 대한 자세한 내용은 다음을 참조하세요.link:https://docs.netapp.com/us-en/console-relnotes/index.html["NetApp 콘솔 릴리스 노트"] .
+변경된 사항에 대한 자세한 내용은 다음을 참조하세요.link:https://docs.netapp.com/us-en/console-relnotes/index.html["NetApp Console 릴리스 노트"] .
 
 
 
@@ -155,7 +155,7 @@ https://docs.netapp.com/us-en/storage-management-ontap-onprem/task-discovering-o
 
 === ONTAP 자격 증명 저장
 
-커넥터를 사용하지 않고 직접 검색된 온프레미스 ONTAP 작업 환경을 열면 이제 ONTAP 클러스터 자격 증명을 저장할 수 있는 옵션이 제공되므로 작업 환경을 열 때마다 입력할 필요가 없습니다.
+커넥터를 사용하지 않고 직접 검색된 온프레미스 ONTAP 작업 환경을 열면 이제 ONTAP 클러스터 자격 증명을 저장할 수 있는 옵션이 제공되므로 작업 환경을 열 때마다 자격 증명을 입력할 필요가 없습니다.
 
 https://docs.netapp.com/us-en/storage-management-ontap-onprem/task-manage-ontap-direct.html["이 옵션에 대해 자세히 알아보세요."]
 
@@ -213,7 +213,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/storage-management-ontap-onpr
 
 온프레미스 ONTAP 클러스터의 고급 관리를 수행해야 하는 경우 ONTAP 시스템과 함께 제공되는 관리 인터페이스인 ONTAP System Manager를 사용하여 해당 작업을 수행할 수 있습니다.  고급 관리를 위해 Cloud Manager를 벗어날 필요가 없도록 Cloud Manager 내부에 System Manager 인터페이스를 직접 포함했습니다.
 
-이 고급 보기는 9.10.0 이상을 실행하는 온프레미스 ONTAP 클러스터에서 미리 보기로 사용할 수 있습니다. 우리는 이 경험을 더욱 개선하고 향후 릴리스에서 향상된 기능을 추가할 계획입니다. 제품 내 채팅을 이용해 피드백을 보내주세요.
+이 고급 보기는 9.10.0 이상을 실행하는 온프레미스 ONTAP 클러스터에서 미리 보기로 사용할 수 있습니다.  우리는 이 경험을 더욱 개선하고 향후 릴리스에서 향상된 기능을 추가할 계획입니다.  제품 내 채팅을 이용해 피드백을 보내주세요.
 
 * link:task-manage-ontap-direct.html["직접 검색된 클러스터를 관리하는 방법을 알아보세요."]
 * link:task-manage-ontap-connector.html["커넥터를 사용하여 검색된 클러스터를 관리하는 방법을 알아보세요."]
@@ -227,7 +227,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/storage-management-ontap-onpr
 
 === 디지털 지갑에서 "온프레미스 ONTAP" 탭을 사용할 수 있습니다.
 
-이제 온프레미스 ONTAP 클러스터의 인벤토리와 하드웨어 및 서비스 계약 만료일을 볼 수 있습니다. 클러스터에 대한 추가 세부 정보도 제공됩니다.
+이제 온프레미스 ONTAP 클러스터의 인벤토리와 하드웨어 및 서비스 계약 만료일을 볼 수 있습니다.  클러스터에 대한 추가 세부 정보도 제공됩니다.
 
 https://docs.netapp.com/us-en/storage-management-ontap-onprem/task-view-cluster-info.html["이 중요한 온프레미스 클러스터 정보를 보는 방법을 알아보세요"] . 클러스터에 대한 NetApp 지원 사이트 계정(NSS)이 필요하며, NSS 자격 증명을 Cloud Manager 계정에 연결해야 합니다.
 

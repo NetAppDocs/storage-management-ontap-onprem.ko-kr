@@ -1,11 +1,11 @@
 ---
 indexpage:
-  title: NetApp 콘솔을 사용한 온프레미스 ONTAP 클러스터 관리
-  summary: NetApp 콘솔에서 NetApp AFF 및 FAS 시스템을 관리하여 스토리지를 프로비저닝하고, 데이터를 복제하고, 중요한 클라우드
-    기반 데이터 서비스를 구성하세요.
+  title: NetApp Console 사용한 온프레미스 ONTAP 클러스터 관리
+  summary: NetApp Console 에서 NetApp AFF 및 FAS 시스템을 관리하여 스토리지를 프로비저닝하고, 데이터를 복제하고,
+    중요한 클라우드 기반 데이터 서비스를 구성하세요.
   keywords: bluexp, netapp console, ontap, discover onprem
-  lead: NetApp 콘솔에서 NetApp AFF 및 FAS 시스템을 관리하여 스토리지를 프로비저닝하고, 데이터를 복제하고, 중요한 클라우드
-    기반 데이터 서비스를 구성하세요.
+  lead: NetApp Console 에서 NetApp AFF 및 FAS 시스템을 관리하여 스토리지를 프로비저닝하고, 데이터를 복제하고, 중요한
+    클라우드 기반 데이터 서비스를 구성하세요.
   tiles:
   - title: 시작하기
     links:
@@ -13,7 +13,7 @@ indexpage:
       url: concept-onprem-ontap.html
     - title: ONTAP 클러스터를 찾아보세요
       url: task-discovering-ontap.html
-  - title: NetApp 콘솔에서 온프레미스 ONTAP 클러스터 관리
+  - title: NetApp Console 에서 온프레미스 ONTAP 클러스터 관리
     links:
     - title: 직접 발견된 클러스터 관리
       url: task-manage-ontap-direct.html
@@ -21,9 +21,9 @@ indexpage:
       url: task-manage-ontap-connector.html
   - title: 블로그 및 커뮤니티
     links:
-    - title: NetApp 콘솔
+    - title: NetApp Console
       url: https://www.netapp.com/console
-    - title: NetApp 데이터 서비스
+    - title: NetApp Data Services
       url: https://www.netapp.com/data-services/
     - title: NetApp 커뮤니티
       url: https://community.netapp.com/

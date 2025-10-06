@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concept-onprem-ontap.html 
 keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, digital wallet, subscriptios, licenses, bluexp 
-summary: NetApp 콘솔에서 AFF/ FAS 컨트롤러와 ONTAP Select 에서 실행되는 ONTAP 클러스터를 관리할 수 있습니다.  NetApp 콘솔에 온프레미스 ONTAP 시스템을 추가하면 단일 인터페이스에서 모든 스토리지 및 데이터 자산을 관리할 수 있습니다. 
+summary: NetApp Console 에서 AFF/ FAS 컨트롤러와 ONTAP Select 에서 실행되는 ONTAP 클러스터를 관리할 수 있습니다.  NetApp Console 에 온프레미스 ONTAP 시스템을 추가하면 단일 인터페이스에서 모든 스토리지 및 데이터 자산을 관리할 수 있습니다. 
 ---
-= NetApp 콘솔에서 온프레미스 ONTAP 클러스터 관리에 대해 알아보세요
+= NetApp Console 에서 온프레미스 ONTAP 클러스터 관리에 대해 알아보세요
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,17 +14,17 @@ summary: NetApp 콘솔에서 AFF/ FAS 컨트롤러와 ONTAP Select 에서 실행
 
 
 [role="lead"]
-NetApp 콘솔에서 AFF/ FAS 컨트롤러와 ONTAP Select 에서 실행되는 ONTAP 클러스터를 관리할 수 있습니다.  온프레미스 ONTAP 시스템을 콘솔에 추가하면 모든 스토리지와 데이터 자산을 중앙에서 관리할 수 있습니다.
+NetApp Console 에서 AFF/ FAS 컨트롤러와 ONTAP Select 에서 실행되는 ONTAP 클러스터를 관리할 수 있습니다.  온프레미스 ONTAP 시스템을 콘솔에 추가하면 모든 스토리지와 데이터 자산을 중앙에서 관리할 수 있습니다.
 
 
 
-== NetApp 콘솔
+== NetApp Console
 
-NetApp 콘솔은 엔터프라이즈급 온프레미스 및 클라우드 환경 전반에서 NetApp 스토리지 및 데이터 서비스를 중앙에서 관리할 수 있는 기능을 제공합니다. NetApp 데이터 서비스에 액세스하고 사용하려면 콘솔이 필요합니다. 관리 인터페이스로서, 하나의 인터페이스에서 여러 스토리지 리소스를 관리할 수 있습니다. 콘솔 관리자는 기업 내 모든 시스템의 저장소와 서비스에 대한 액세스를 제어할 수 있습니다.
+NetApp Console 엔터프라이즈급 온프레미스 및 클라우드 환경 전반에서 NetApp 스토리지 및 데이터 서비스를 중앙에서 관리할 수 있는 기능을 제공합니다. NetApp 데이터 서비스에 액세스하고 사용하려면 콘솔이 필요합니다. 관리 인터페이스로서, 하나의 인터페이스에서 여러 스토리지 리소스를 관리할 수 있습니다. 콘솔 관리자는 기업 내 모든 시스템의 저장소와 서비스에 대한 액세스를 제어할 수 있습니다.
 
-NetApp Console을 사용하려면 라이선스나 구독이 필요하지 않으며, 스토리지 시스템이나 NetApp 데이터 서비스에 대한 연결을 보장하기 위해 클라우드에 Console 에이전트를 배포해야 할 때만 요금이 부과됩니다. 그러나 콘솔에서 액세스할 수 있는 일부 NetApp 데이터 서비스는 라이선스 기반이거나 구독 기반입니다.
+NetApp Console 사용하려면 라이선스나 구독이 필요하지 않으며, 스토리지 시스템이나 NetApp 데이터 서비스에 대한 연결을 보장하기 위해 클라우드에 Console 에이전트를 배포해야 할 때만 요금이 부과됩니다. 그러나 콘솔에서 액세스할 수 있는 일부 NetApp 데이터 서비스는 라이선스 기반이거나 구독 기반입니다.
 
-자세히 알아보세요 https://docs.netapp.com/us-en/console-setup-admin/concept-overview.html["NetApp 콘솔"] .
+자세히 알아보세요 https://docs.netapp.com/us-en/console-setup-admin/concept-overview.html["NetApp Console"] .
 
 
 
@@ -47,5 +47,5 @@ NetApp Console을 사용하려면 라이선스나 구독이 필요하지 않으�
 +
 클라우드나 사내에 콘솔 에이전트를 설치할 수 있습니다.  클라우드에 콘솔 에이전트를 설치하면 비용이 발생합니다.
 
-* NetApp 백업 및 복구, NetApp 랜섬웨어 복원력 등과 같은 NetApp 데이터 서비스를 사용하는지 여부.
+* NetApp Backup and Recovery, NetApp Ransomware Resilience 등과 같은 NetApp 데이터 서비스를 사용하는지 여부.
 

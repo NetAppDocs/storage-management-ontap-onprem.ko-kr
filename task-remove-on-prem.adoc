@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-remove-on-prem.html 
 keywords: ontap, cluster, remove, delete, remove ontap cluster, remove onprem, delete cluster, delete working environment, remove working environment, storage admin, netapp console, console remove system 
-summary: 더 이상 NetApp 콘솔에서 관리하지 않으려면 온프레미스 ONTAP 시스템을 제거합니다. 
+summary: 더 이상 NetApp Console 에서 관리하지 않으려면 온프레미스 ONTAP 시스템을 제거합니다. 
 ---
-= NetApp 콘솔에서 온프레미스 ONTAP 시스템 제거
+= NetApp Console 에서 온프레미스 ONTAP 시스템 제거
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -17,7 +17,7 @@ summary: 더 이상 NetApp 콘솔에서 관리하지 않으려면 온프레미�
 더 이상 콘솔에서 관리하지 않으려면 온프레미스 ONTAP 시스템을 제거합니다.
 
 .필수 콘솔 역할:
-저장소 관리자.link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["NetApp 콘솔 액세스 역할에 대해 알아보세요."^]
+저장소 관리자.link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["NetApp Console 액세스 역할에 대해 알아보세요."^]
 
 시스템을 제거해도 ONTAP 클러스터에는 영향을 미치지 않습니다.  언제든지 콘솔에서 다시 확인할 수 있습니다.
 

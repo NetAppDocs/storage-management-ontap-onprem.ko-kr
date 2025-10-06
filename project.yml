@@ -11,7 +11,7 @@ settings:
   langs: ko-kr,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,zh-cn,zh-tw
 sidebar:
   entries:
-  - title: NetApp 콘솔의 온프레미스 ONTAP 클러스터
+  - title: NetApp Console 의 온프레미스 ONTAP 클러스터
     url: "/index.html"
   - title: 릴리스 노트
     entries:
