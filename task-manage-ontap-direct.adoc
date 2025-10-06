@@ -1,0 +1,55 @@
+---
+sidebar: sidebar 
+permalink: task-manage-ontap-direct.html 
+keywords: direct discovery, direct, system manager, local, local discovery, 
+summary: NetApp 콘솔 에이전트를 사용하지 않고 온프레미스 ONTAP 클러스터를 직접 검색한 경우 NetApp 콘솔에서 시스템을 열고 ONTAP 시스템 관리자를 사용하여 클러스터를 관리할 수 있습니다. 
+---
+= NetApp 콘솔에서 직접 검색된 클러스터 관리
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+콘솔 에이전트를 사용하지 않고 온프레미스 ONTAP 클러스터를 직접 발견한 경우 콘솔에서 시스템을 열어 클러스터를 관리하고 ONTAP 시스템 관리자에 액세스할 수 있습니다.
+
+.필수 콘솔 역할:
+스토리지 관리자 또는 시스템 상태 전문가.link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["콘솔 액세스 역할에 대해 알아보세요."^]
+
+.시작하기 전에
+콘솔에 액세스하는 데 사용하는 컴퓨터는 온프레미스 ONTAP 클러스터에 대한 네트워크 연결이 있어야 합니다. 이는 개인 네트워크의 다른 리소스에 대한 연결을 제공하는 방식과 유사합니다.
+
+.제한 사항
+일부 시스템 관리자 기능은 콘솔에서 지원되지 않습니다.
+
+link:reference-limitations.html["제한 사항 목록을 검토하세요"] .
+
+.단계
+. *시스템* 페이지에서 온-프레미스 ONTAP 시스템을 선택합니다.
++
+시스템 아이콘은 직접 검색된 클러스터를 식별합니다.
+
++
+image:screenshot-direct-discovery-we.png["시스템 페이지에 나타나는 시스템 아이콘의 스크린샷"]
+
+. 메시지가 표시되면 ONTAP 자격 증명을 입력하세요.
++
+자격 증명을 저장하지 않으면 시스템을 열 때마다 ONTAP 자격 증명을 사용하여 로그인하라는 메시지가 표시됩니다. 저장하면 매번 입력할 필요가 없습니다. 사용자 자격 증명 페이지에서 이러한 자격 증명을 관리할 수 있습니다.  어떤 경우에는 콘솔 관리자(조직 관리자 역할)가 이 옵션을 비활성화하여 매번 자격 증명을 입력하도록 요구할 수 있습니다.
+
++
+image:screenshot-credentials.png["ONTAP 클러스터에 대한 사용자 이름과 비밀번호를 입력하라는 메시지를 보여주는 스크린샷입니다."]
+
+. ONTAP 관리하려면 System Manager를 사용하세요.
++
+ONTAP 과 함께 System Manager를 사용하는 데 도움이 필요한 경우 다음을 참조하세요. https://docs.netapp.com/us-en/ontap/index.html["ONTAP 문서"^] 단계별 지침을 확인하세요.  다음 링크에서는 추가 지침을 제공합니다.
+
++
+** https://docs.netapp.com/us-en/ontap/volume-admin-overview-concept.html["볼륨 및 LUN 관리"^]
+** https://docs.netapp.com/us-en/ontap/network-manage-overview-concept.html["네트워크 관리"^]
+** https://docs.netapp.com/us-en/ontap/concept_dp_overview.html["데이터 보호"^]
+
+
+

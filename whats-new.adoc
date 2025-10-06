@@ -1,0 +1,242 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, on-prem' 
+summary: BlueXP 에서 온프레미스 ONTAP 클러스터 관리의 새로운 기능에 대해 알아보세요. 
+---
+= NetApp 콘솔의 온프레미스 ONTAP 클러스터에 대한 새로운 기능
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp 콘솔에서 온프레미스 ONTAP 클러스터 관리의 새로운 기능에 대해 알아보세요.
+
+
+
+== 2025년 10월 6일
+
+
+
+=== BlueXP 는 이제 NetApp 콘솔입니다.
+
+강화되고 재구성된 BlueXP 기반을 기반으로 구축된 NetApp 콘솔은 엔터프라이즈급 온프레미스 및 클라우드 환경 전반에서 NetApp 스토리지와 NetApp 데이터 서비스를 중앙에서 관리하여 실시간 통찰력, 더 빠른 워크플로, 간소화된 관리를 제공하며, 높은 보안성과 규정 준수를 보장합니다.
+
+변경된 사항에 대한 자세한 내용은 다음을 참조하세요.link:https://docs.netapp.com/us-en/console-relnotes/index.html["NetApp 콘솔 릴리스 노트"] .
+
+
+
+== 2025년 5월 12일
+
+
+
+=== BlueXP 액세스 역할이 필요합니다
+
+이제 온프레미스 ONTAP 클러스터를 보고, 검색하고, 관리하려면 다음 액세스 역할 중 하나가 필요합니다. 조직 관리자, 폴더 또는 프로젝트 관리자, 스토리지 관리자 또는 시스템 상태 전문가. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["액세스 역할에 대해 알아보세요."^]
+
+
+
+== 2024년 11월 26일
+
+
+
+=== 개인 모드를 사용한 ASA r2 시스템 지원
+
+이제 BlueXP 개인 모드로 사용할 때 NetApp ASA r2 시스템을 검색할 수 있습니다.  이 지원은 BlueXP 의 3.9.46 개인 모드 릴리스부터 사용할 수 있습니다.
+
+* https://docs.netapp.com/us-en/asa-r2/index.html["ASA r2 시스템에 대해 자세히 알아보세요"^]
+* https://docs.netapp.com/us-en/console-setup-admin/concept-modes.html["BlueXP 배포 모드에 대해 알아보세요"^]
+
+
+
+
+== 2024년 10월 7일
+
+
+
+=== ASA r2 시스템 지원
+
+이제 BlueXP 표준 모드 또는 제한 모드로 사용할 때 BlueXP 에서 NetApp ASA r2 시스템을 검색할 수 있습니다.  NetApp ASA r2 시스템을 발견하고 작업 환경을 열면 바로 시스템 관리자로 이동하게 됩니다.
+
+ASA r2 시스템에서는 다른 관리 옵션을 사용할 수 없습니다.  표준 보기를 사용할 수 없고 BlueXP 서비스를 활성화할 수 없습니다.
+
+BlueXP 개인 모드로 사용하는 경우 ASA r2 시스템 검색이 지원되지 않습니다.
+
+* https://docs.netapp.com/us-en/asa-r2/index.html["ASA r2 시스템에 대해 자세히 알아보세요"^]
+* https://docs.netapp.com/us-en/console-setup-admin/concept-modes.html["BlueXP 배포 모드에 대해 알아보세요"^]
+
+
+
+
+== 2024년 4월 22일
+
+
+
+=== 볼륨 템플릿은 더 이상 지원되지 않습니다.
+
+더 이상 템플릿에서 볼륨을 생성할 수 없습니다.  이 작업은 더 이상 사용할 수 없는 BlueXP 복구 서비스와 관련이 있습니다.
+
+
+
+== 2023년 7월 30일
+
+
+
+=== FlexGroup 볼륨 생성
+
+커넥터를 사용하여 클러스터를 관리하는 경우 이제 BlueXP API를 사용하여 FlexGroup 볼륨을 생성할 수 있습니다.
+
+* https://docs.netapp.com/us-en/bluexp-automation/cm/wf_onprem_flexgroup_ontap_create_vol.html["FlexGroup 볼륨을 만드는 방법을 알아보세요"^]
+* https://docs.netapp.com/us-en/ontap/flexgroup/definition-concept.html["FlexGroup 볼륨이 무엇인지 알아보세요"^]
+
+
+
+
+== 2023년 7월 2일
+
+
+
+=== 내 부동산에서 클러스터 발견
+
+이제 BlueXP 로그인에 대한 이메일 주소와 연결된 ONTAP 클러스터를 기반으로 BlueXP 미리 검색한 클러스터를 선택하여 *Canvas > My estate*에서 온프레미스 ONTAP 클러스터를 검색할 수 있습니다.
+
+https://docs.netapp.com/us-en/storage-management-ontap-onprem/task-discovering-ontap.html#add-a-pre-discovered-cluster["내 부동산 페이지에서 클러스터를 검색하는 방법을 알아보세요."] .
+
+
+
+== 2023년 5월 4일
+
+
+
+=== BlueXP backup and recovery 활성화
+
+ONTAP 9.13.1부터 커넥터를 사용하여 클러스터를 검색한 경우 시스템 관리자(고급 보기)를 사용하여 BlueXP backup and recovery 활성화할 수 있습니다.link:https://docs.netapp.com/us-en/ontap/task_cloud_backup_data_using_cbs.html["BlueXP backup and recovery 활성화에 대해 자세히 알아보세요."^]
+
+
+
+=== ONTAP 버전 이미지 및 하드웨어 펌웨어 업그레이드
+
+ONTAP 9.10.1부터 시스템 관리자(고급 보기)를 사용하여 ONTAP 버전 이미지와 하드웨어 펌웨어를 업그레이드할 수 있습니다.  최신 상태를 유지하려면 자동 업그레이드를 선택하거나, BlueXP 사용하여 액세스할 수 있는 로컬 컴퓨터나 서버에서 수동으로 업데이트할 수 있습니다.link:https://docs.netapp.com/us-en/ontap/task_admin_update_firmware.html#prepare-for-firmware-update["ONTAP 및 펌웨어 업그레이드에 대해 자세히 알아보세요"^]
+
+
+NOTE: 커넥터가 없으면 로컬 머신에서 업데이트를 할 수 없고 BlueXP 사용하여 액세스할 수 있는 서버에서만 업데이트를 할 수 있습니다.
+
+
+
+== 2023년 4월 3일
+
+
+
+=== BlueXP 콘솔의 단일 검색 옵션
+
+BlueXP 콘솔에서 온프레미스 ONTAP 클러스터를 검색하면 이제 단일 옵션이 표시됩니다.
+
+image:https://raw.githubusercontent.com/NetAppDocs/storage-management-ontap-onprem/main/media/screenshot-discover-on-prem-ontap.png["작업 환경을 생성할 때 사용 가능한 온프레미스 ONTAP 옵션을 보여주는 스크린샷"]
+
+이전에는 직접 검색과 커넥터를 통한 검색에 대한 흐름이 별도로 있었습니다.  두 옵션 모두 여전히 사용 가능하지만 단일 흐름으로 병합되었습니다.
+
+검색 프로세스를 시작하면 BlueXP 다음과 같이 클러스터를 검색합니다.
+
+* ONTAP 클러스터에 연결된 활성 커넥터가 있는 경우 BlueXP 해당 커넥터를 사용하여 클러스터를 검색하고 관리합니다.
+* 커넥터가 없거나 커넥터가 ONTAP 클러스터에 연결되어 있지 않으면 BlueXP 자동으로 직접 검색 및 관리 옵션을 사용합니다.
+
+
+https://docs.netapp.com/us-en/storage-management-ontap-onprem/task-discovering-ontap.html["발견 및 관리 옵션에 대해 자세히 알아보세요"] .
+
+
+
+== 2023년 1월 1일
+
+
+
+=== ONTAP 자격 증명 저장
+
+커넥터를 사용하지 않고 직접 검색된 온프레미스 ONTAP 작업 환경을 열면 이제 ONTAP 클러스터 자격 증명을 저장할 수 있는 옵션이 제공되므로 작업 환경을 열 때마다 입력할 필요가 없습니다.
+
+https://docs.netapp.com/us-en/storage-management-ontap-onprem/task-manage-ontap-direct.html["이 옵션에 대해 자세히 알아보세요."]
+
+
+
+== 2022년 12월 4일
+
+
+
+=== 온프레미스 ONTAP 클러스터를 검색하는 새로운 방법
+
+이제 커넥터를 사용하지 않고도 온프레미스 ONTAP 클러스터를 직접 검색할 수 있습니다.  이 옵션을 선택하면 시스템 관리자를 통해서만 클러스터를 관리할 수 있습니다.  이러한 유형의 작업 환경에서는 BlueXP 데이터 서비스를 활성화할 수 없습니다.
+
+https://docs.netapp.com/us-en/storage-management-ontap-onprem/task-discovering-ontap.html["이 발견 및 관리 옵션에 대해 자세히 알아보세요"] .
+
+
+
+=== FlexGroup 볼륨
+
+커넥터를 통해 검색된 온프레미스 ONTAP 클러스터의 경우, 이제 BlueXP 의 표준 보기에 System Manager 또는 ONTAP CLI를 통해 생성된 FlexGroup 볼륨이 표시됩니다.  볼륨을 복제하고, 설정을 편집하고, 삭제하는 등의 방법으로 볼륨을 관리할 수도 있습니다.
+
+image:https://raw.githubusercontent.com/NetAppDocs/storage-management-ontap-onprem/main/media/screenshot-flexgroup-volumes.png["온프레미스 ONTAP 클러스터의 볼륨 페이지에서 FlexGroup 볼륨을 보여주는 스크린샷입니다."]
+
+BlueXP FlexGroup 볼륨 생성을 지원하지 않습니다.  FlexGroup 볼륨을 생성하려면 계속해서 System Manager나 CLI를 사용해야 합니다.
+
+
+
+== 2022년 9월 18일
+
+
+
+=== 새로운 개요 페이지
+
+온프레미스 ONTAP 클러스터에 대한 주요 세부 정보를 제공하는 새로운 개요 페이지를 도입했습니다.  예를 들어, 이제 스토리지 효율성, 용량 분포, 시스템 정보와 같은 세부 정보를 볼 수 있습니다.
+
+데이터 계층화, 데이터 복제 및 백업을 지원하는 다른 BlueXP 서비스와의 통합에 대한 세부 정보도 볼 수 있습니다.
+
+image:https://raw.githubusercontent.com/NetAppDocs/storage-management-ontap-onprem/main/media/screenshot-overview.png["온프레미스 ONTAP 클러스터의 개요 페이지를 보여주는 스크린샷입니다."]
+
+
+
+=== 재설계된 볼륨 페이지
+
+클러스터의 볼륨에 대한 요약을 제공하기 위해 볼륨 페이지를 재설계했습니다.  요약에서는 총 볼륨 수, 프로비저닝된 용량, 사용 및 예약된 용량, 계층화된 데이터 양을 보여줍니다.
+
+image:https://raw.githubusercontent.com/NetAppDocs/storage-management-ontap-onprem/main/media/screenshot-volumes.png["온프레미스 ONTAP 클러스터의 볼륨 페이지를 보여주는 스크린샷입니다."]
+
+
+
+== 2022년 6월 7일
+
+
+
+=== 새로운 고급 보기
+
+온프레미스 ONTAP 클러스터의 고급 관리를 수행해야 하는 경우 ONTAP 시스템과 함께 제공되는 관리 인터페이스인 ONTAP System Manager를 사용하여 해당 작업을 수행할 수 있습니다.  고급 관리를 위해 Cloud Manager를 벗어날 필요가 없도록 Cloud Manager 내부에 System Manager 인터페이스를 직접 포함했습니다.
+
+이 고급 보기는 9.10.0 이상을 실행하는 온프레미스 ONTAP 클러스터에서 미리 보기로 사용할 수 있습니다. 우리는 이 경험을 더욱 개선하고 향후 릴리스에서 향상된 기능을 추가할 계획입니다. 제품 내 채팅을 이용해 피드백을 보내주세요.
+
+* link:task-manage-ontap-direct.html["직접 검색된 클러스터를 관리하는 방법을 알아보세요."]
+* link:task-manage-ontap-connector.html["커넥터를 사용하여 검색된 클러스터를 관리하는 방법을 알아보세요."]
+
+
+
+
+== 2022년 2월 27일
+
+
+
+=== 디지털 지갑에서 "온프레미스 ONTAP" 탭을 사용할 수 있습니다.
+
+이제 온프레미스 ONTAP 클러스터의 인벤토리와 하드웨어 및 서비스 계약 만료일을 볼 수 있습니다. 클러스터에 대한 추가 세부 정보도 제공됩니다.
+
+https://docs.netapp.com/us-en/storage-management-ontap-onprem/task-view-cluster-info.html["이 중요한 온프레미스 클러스터 정보를 보는 방법을 알아보세요"] . 클러스터에 대한 NetApp 지원 사이트 계정(NSS)이 필요하며, NSS 자격 증명을 Cloud Manager 계정에 연결해야 합니다.
+
+
+
+== 2022년 1월 11일
+
+
+
+=== 온프레미스 ONTAP 클러스터의 볼륨에 추가하는 태그는 태그 지정 서비스와 함께 사용할 수 있습니다.
+
+볼륨에 추가하는 태그는 이제 애플리케이션 템플릿 서비스의 태그 지정 기능과 연결되어 리소스 관리를 구성하고 간소화하는 데 도움이 됩니다.

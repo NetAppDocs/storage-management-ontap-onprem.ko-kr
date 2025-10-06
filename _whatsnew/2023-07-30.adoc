@@ -1,0 +1,13 @@
+= FlexGroup 볼륨 생성
+:allow-uri-read: 
+
+
+
+
+=== FlexGroup 볼륨 생성
+
+커넥터를 사용하여 클러스터를 관리하는 경우 이제 BlueXP API를 사용하여 FlexGroup 볼륨을 생성할 수 있습니다.
+
+* https://docs.netapp.com/us-en/bluexp-automation/cm/wf_onprem_flexgroup_ontap_create_vol.html["FlexGroup 볼륨을 만드는 방법을 알아보세요"^]
+* https://docs.netapp.com/us-en/ontap/flexgroup/definition-concept.html["FlexGroup 볼륨이 무엇인지 알아보세요"^]
+

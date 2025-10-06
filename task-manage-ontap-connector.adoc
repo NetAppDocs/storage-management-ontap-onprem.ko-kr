@@ -1,0 +1,205 @@
+---
+sidebar: sidebar 
+permalink: task-manage-ontap-connector.html 
+keywords: system manager, advanced view, access system manager, load system manager, use system manager, flexgroup, flexgroup volumes, create flexgroup volume 
+summary: 콘솔 에이전트를 사용하여 온프레미스 ONTAP 클러스터를 발견한 경우 표준 보기에서 볼륨을 생성하고, 고급 보기에서 시스템 관리자를 사용하고, NetApp 데이터 서비스를 활성화할 수 있습니다. 
+---
+= 콘솔 에이전트로 검색된 클러스터 관리
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+콘솔 에이전트를 사용하여 온프레미스 ONTAP 클러스터를 발견한 경우 NetApp 콘솔에서 직접 볼륨을 생성하고, 고급 관리를 위해 ONTAP System Manager(콘솔에서 직접)에 액세스하고, NetApp 데이터 서비스를 활성화할 수 있습니다.
+
+.필요한 NetApp 콘솔 역할:
+스토리지 관리자 또는 시스템 상태 전문가.link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["콘솔 액세스 역할에 대해 알아보세요."^]
+
+*시스템* 페이지에서 콘솔 에이전트로 검색한 클러스터의 시스템 아이콘은 다음과 비슷하게 표시됩니다.
+
+image:screenshot-connector-we.png["콘솔 에이전트로 클러스터를 검색했을 때 나타나는 시스템 아이콘의 스크린샷입니다."]
+
+시스템을 직접 발견하면 시스템 아이콘에 "직접"이라는 단어가 표시됩니다.
+
+
+
+== NetApp 콘솔에서 FlexVol 볼륨 생성
+
+콘솔 에이전트를 사용하여 온프레미스 ONTAP 클러스터를 콘솔에 추가한 후 콘솔에서 직접 FlexVol 볼륨을 프로비저닝하고 관리할 수 있습니다.
+
+콘솔을 사용하면 기존 집계에 NFS 또는 CIFS 볼륨을 생성할 수 있습니다.  온프레미스 ONTAP 클러스터에서 기본 콘솔 페이지에서 새로운 집계를 생성할 수는 없습니다. 그러나 콘솔에서 해당 ONTAP 시스템 관리자에 액세스하여 집계를 생성할 수 있습니다.
+
+.단계
+. 탐색 메뉴에서 *저장소 > 관리*를 선택합니다.
+. *시스템* 페이지에서 볼륨을 프로비저닝할 온프레미스 ONTAP 클러스터를 선택합니다.
+. *볼륨 > 볼륨 추가*를 선택합니다.
+. 마법사의 단계에 따라 볼륨을 생성합니다.
++
+.. *세부 정보, 보호 및 태그*: 볼륨의 이름, 크기 등 볼륨에 대한 세부 정보를 입력하고 스냅샷 정책을 선택합니다.
++
+이 페이지의 일부 필드는 설명이 필요 없습니다.  다음 목록은 지침이 필요할 수 있는 필드를 설명합니다.
+
++
+[cols="2,6"]
+|===
+| 필드 | 설명 
+
+
+| 크기 | 최대 크기는 씬 프로비저닝을 활성화하는지 여부에 따라 달라집니다. 씬 프로비저닝을 활성화하면 사용 가능한 물리적 저장소보다 큰 볼륨을 만들 수 있습니다. 
+
+
+| 스냅샷 정책 | 스냅샷 복사 정책은 NetApp 스냅샷 복사본을 얼마나 자주, 얼마나 많이 생성할지 정의합니다.  NetApp 스냅샷 복사본은 성능에 영향을 미치지 않고 최소한의 저장 공간만 필요한 특정 시점의 파일 시스템 이미지입니다.  기본 정책을 선택하거나 아무것도 선택하지 않을 수 있습니다.  Microsoft SQL Server의 임시 데이터베이스(tempdb)와 같은 일시적인 데이터의 경우에는 아무것도 선택하지 않을 수 있습니다. 
+|===
+.. *프로토콜*: 볼륨에 대한 프로토콜(NFS, CIFS 또는 iSCSI)을 선택한 다음 볼륨에 대한 액세스 제어 또는 권한을 설정합니다.
++
+서버 없이 CIFS를 선택하는 경우, 시스템은 Active Directory나 작업 그룹을 사용하여 CIFS를 구성하라는 메시지를 표시합니다.
+
++
+다음 목록은 지침이 필요할 수 있는 필드를 설명합니다.
+
++
+[cols="2,6"]
+|===
+| 필드 | 설명 
+
+
+| 접근 제어 | NFS 내보내기 정책은 볼륨에 액세스할 수 있는 서브넷의 클라이언트를 정의합니다.  기본적으로 콘솔은 서브넷의 모든 인스턴스에 대한 액세스를 제공하는 값을 입력합니다. 
+
+
+| 권한 및 사용자/그룹 | 이러한 필드를 사용하면 사용자 및 그룹의 SMB 공유에 대한 액세스 수준(액세스 제어 목록 또는 ACL이라고도 함)을 제어할 수 있습니다.  로컬 또는 도메인 Windows 사용자나 그룹, 또는 UNIX 사용자나 그룹을 지정할 수 있습니다.  도메인 Windows 사용자 이름을 지정하는 경우 domain\username 형식을 사용하여 사용자 도메인을 포함해야 합니다. 
+|===
+.. *사용 프로필*: 필요한 총 저장 용량을 줄이기 위해 볼륨에서 저장 효율성 기능을 활성화할지 비활성화할지 선택합니다.
+.. *검토*: 볼륨에 대한 세부 정보를 검토한 후 *추가*를 선택합니다.
+
+
+
+
+
+
+== NetApp 콘솔 API를 사용하여 FlexGroup 볼륨 만들기
+
+NetApp 콘솔 API를 사용하여 FlexGroup 볼륨을 생성할 수 있습니다.  FlexGroup 볼륨은 자동 부하 분산과 함께 높은 성능을 제공하는 확장형 볼륨입니다.
+
+* https://docs.netapp.com/us-en/bluexp-automation/cm/wf_onprem_flexgroup_ontap_create_vol.html["API를 사용하여 FlexGroup 볼륨을 만드는 방법을 알아보세요."^]
+* https://docs.netapp.com/us-en/ontap/flexgroup/definition-concept.html["FlexGroup 볼륨이 무엇인지 알아보세요"^]
+
+
+
+
+== NetApp 콘솔에서 ONTAP 시스템 관리자에 액세스
+
+콘솔 내에서 ONTAP 시스템 관리자 인터페이스에 직접 액세스할 수 있습니다.
+
+
+
+=== 특징
+
+콘솔에서 ONTAP 시스템 관리자에 액세스하면 다음과 같은 추가 관리 기능을 사용할 수 있습니다.
+
+* 고급 스토리지 관리
++
+일관성 그룹, 공유, Q트리, 할당량 및 스토리지 VM을 관리합니다.
+
+* 네트워킹 관리
++
+IP 공간, 네트워크 인터페이스, 포트셋 및 이더넷 포트를 관리합니다.
+
+* 이벤트 및 채용
++
+이벤트 로그, 시스템 알림, 작업 및 감사 로그를 확인합니다.
+
+* 고급 데이터 보호
++
+스토리지 VM, LUN 및 일관성 그룹을 보호합니다.
+
+* 호스트 관리
++
+SAN 이니시에이터 그룹과 NFS 클라이언트를 설정합니다.
+
+
+
+
+
+=== 지원되는 구성
+
+9.10.0 이상을 실행하는 온프레미스 ONTAP 클러스터에서는 System Manager를 통한 고급 관리가 지원됩니다.
+
+GovCloud 지역이나 아웃바운드 인터넷 액세스가 없는 지역에서는 System Manager 통합이 지원되지 않습니다.
+
+
+
+=== 제한 사항
+
+콘솔을 통해 ONTAP System Manager에 액세스할 경우 온프레미스 ONTAP 클러스터에서는 몇 가지 System Manager 기능이 지원되지 않습니다.
+
+link:reference-limitations.html["제한 사항 목록을 검토하세요"] .
+
+
+
+=== NetApp 콘솔에서 ONTAP 시스템 관리자에 액세스
+
+시스템의 시스템 관리자를 엽니다.
+
+.단계
+. *시스템* 페이지에서 볼륨을 프로비저닝할 온프레미스 ONTAP 클러스터를 선택합니다.
+. 오른쪽 패널의 *서비스*에서 *시스템 관리자*를 찾아 *열기*를 선택합니다.
+. 확인 메시지가 나타나면 내용을 읽고 *닫기*를 선택하세요.
+. ONTAP 관리하려면 System Manager를 사용하세요.
+. 필요한 경우 *표준 보기로 전환*을 선택하여 콘솔을 통해 표준 관리로 돌아갑니다.
++
+image:screenshot-standard-view.png["표준 보기로 전환 옵션을 보여주는 온프레미스 ONTAP 시스템의 스크린샷입니다."]
+
+
+
+
+
+=== 시스템 관리자에 대한 도움말 받기
+
+ONTAP 과 함께 System Manager를 사용하는 데 도움이 필요한 경우 다음을 참조하세요. https://docs.netapp.com/us-en/ontap/index.html["ONTAP 문서"^] 단계별 지침을 확인하세요.  도움이 될 만한 몇 가지 링크를 소개합니다.
+
+* https://docs.netapp.com/us-en/ontap/volume-admin-overview-concept.html["볼륨 및 LUN 관리"^]
+* https://docs.netapp.com/us-en/ontap/network-manage-overview-concept.html["네트워크 관리"^]
+* https://docs.netapp.com/us-en/ontap/concept_dp_overview.html["데이터 보호"^]
+
+
+
+
+== NetApp 데이터 서비스 활성화
+
+시스템에서 NetApp 데이터 서비스를 활성화하여 데이터 복제, 데이터 백업, 데이터 계층화 등의 작업을 수행하세요.
+
+데이터 복제:: Cloud Volumes ONTAP 시스템, Amazon FSx for ONTAP 파일 시스템 및 ONTAP 클러스터 간에 데이터를 복제합니다.  일회성 데이터 복제를 선택하면 클라우드로 데이터를 이동하거나 클라우드에서 데이터를 가져오는 데 도움이 되고, 반복 일정을 선택하면 재해 복구나 장기 데이터 보존에 도움이 됩니다.
++
+--
+https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["NetApp 복제 설명서"^]
+
+--
+데이터 백업:: 온프레미스 ONTAP 시스템의 데이터를 클라우드의 저렴한 객체 스토리지로 백업하세요.
++
+--
+https://docs.netapp.com/us-en/bluexp-backup-recovery/concept-backup-to-cloud.html["NetApp 백업 및 복구 설명서"^]
+
+--
+데이터를 스캔, 매핑 및 분류하세요:: 회사 내 클러스터를 스캔하여 데이터를 매핑하고 분류하며 개인 정보를 식별합니다.  이를 통해 보안 및 규정 준수 위험을 줄이고, 스토리지 비용을 절감하고, 데이터 마이그레이션 프로젝트를 지원할 수 있습니다.
++
+--
+https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["NetApp 데이터 분류 문서"^]
+
+--
+데이터를 클라우드로 계층화:: ONTAP 클러스터에서 비활성 데이터를 자동으로 개체 스토리지로 계층화하여 데이터 센터를 클라우드로 확장합니다.
++
+--
+https://docs.netapp.com/us-en/bluexp-tiering/concept-cloud-tiering.html["NetApp 클라우드 계층화 설명서"^]
+
+--
+용량이 부족한 클러스터 식별:: 용량이 부족한 클러스터를 파악하고 현재 용량과 예상 용량을 검토합니다.
++
+--
+https://docs.netapp.com/us-en/bluexp-economic-efficiency/index.html["NetApp 수명 주기 계획 문서"^]
+
+--
+

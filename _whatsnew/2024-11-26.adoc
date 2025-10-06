@@ -1,0 +1,13 @@
+= 개인 모드를 사용한 ASA r2 시스템 지원
+:allow-uri-read: 
+
+
+
+
+=== 개인 모드를 사용한 ASA r2 시스템 지원
+
+이제 BlueXP 개인 모드로 사용할 때 NetApp ASA r2 시스템을 검색할 수 있습니다.  이 지원은 BlueXP 의 3.9.46 개인 모드 릴리스부터 사용할 수 있습니다.
+
+* https://docs.netapp.com/us-en/asa-r2/index.html["ASA r2 시스템에 대해 자세히 알아보세요"^]
+* https://docs.netapp.com/us-en/console-setup-admin/concept-modes.html["BlueXP 배포 모드에 대해 알아보세요"^]
+

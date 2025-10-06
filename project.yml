@@ -1,0 +1,50 @@
+---
+settings:
+  name: On-premises ONTAP clusters
+  platform: cloud
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  langs: ko-kr,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,zh-cn,zh-tw
+sidebar:
+  entries:
+  - title: NetApp 콘솔의 온프레미스 ONTAP 클러스터
+    url: "/index.html"
+  - title: 릴리스 노트
+    entries:
+    - title: 새로운 소식
+      url: "/whats-new.html"
+    - title: 알려진 제한 사항
+      url: "/reference-limitations.html"
+  - title: 시작하기
+    entries:
+    - title: 온프레미스 ONTAP 클러스터 관리에 대해 알아보세요
+      url: "/concept-onprem-ontap.html"
+    - title: 온프레미스 ONTAP 클러스터를 찾아보세요
+      url: "/task-discovering-ontap.html"
+  - title: 온프레미스 ONTAP 클러스터 관리
+    entries:
+    - title: 직접 발견된 클러스터 관리
+      url: "/task-manage-ontap-direct.html"
+    - title: 콘솔 에이전트로 검색된 클러스터 관리
+      url: "/task-manage-ontap-connector.html"
+    - title: 클러스터 정보 및 계약 세부 정보 보기
+      url: "/task-view-cluster-info.html"
+    - title: NetApp Digital Advisor 사용하여 클러스터 최적화
+      url: "/concept-aiq-digital-advisor.html"
+    - title: 온프레미스 ONTAP 시스템 제거
+      url: "/task-remove-on-prem.html"
+  - title: 지식과 지원
+    entries:
+    - title: 지원 등록
+      url: "/task-support-registration.html"
+    - title: 도움을 받으세요
+      url: "/task-get-help.html"
+  - title: 법적 고지 사항
+    url: "/legal-notices.html"
+product-family:
+  name: Storage management
+  repo: storage-management-family

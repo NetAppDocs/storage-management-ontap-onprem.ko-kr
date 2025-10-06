@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="87377698a8dca305b9579a13060142f2" category="doc">FlexGroup 볼륨 생성</block>
+  <block id="14b044746cb87538e696ebd7cef86e8f" category="paragraph">커넥터를 사용하여 클러스터를 관리하는 경우 이제 BlueXP API를 사용하여 FlexGroup 볼륨을 생성할 수 있습니다.</block>
+  <block id="ca513b668252beaae65808764fc2388f" category="inline-link">FlexGroup 볼륨을 만드는 방법을 알아보세요</block>
+  <block id="dfc9f0f0920c102b079fd1c513fccdde" category="list-text"><block ref="dfc9f0f0920c102b079fd1c513fccdde" category="inline-link-rx"></block></block>
+  <block id="bbcffd6476036994102e5ec1c5571f64" category="inline-link">FlexGroup 볼륨이 무엇인지 알아보세요</block>
+  <block id="a33a2b4a40f0a01a71b97f709ac14074" category="list-text"><block ref="a33a2b4a40f0a01a71b97f709ac14074" category="inline-link-rx"></block></block>
+  <block id="2d177a5ce778fe0e6f460ac5e9449f84" category="doc">볼륨 템플릿은 더 이상 지원되지 않습니다.</block>
+  <block id="14b1c6bd63866971a4cd695c3c2a3d80" category="paragraph">더 이상 템플릿에서 볼륨을 생성할 수 없습니다.  이 작업은 더 이상 사용할 수 없는 BlueXP 복구 서비스와 관련이 있습니다.</block>
+  <block id="1e095c69621645fccc8f12cd7f35f6fc" category="doc">ASA r2 시스템 지원</block>
+  <block id="0c02bcea354671c5372f06a37c547a7d" category="paragraph">이제 BlueXP 표준 모드 또는 제한 모드로 사용할 때 BlueXP 에서 NetApp ASA r2 시스템을 검색할 수 있습니다.  NetApp ASA r2 시스템을 발견하고 작업 환경을 열면 바로 시스템 관리자로 이동하게 됩니다.</block>
+  <block id="d5861f4539296095cd7c9fdfd0c5a2c9" category="paragraph">ASA r2 시스템에서는 다른 관리 옵션을 사용할 수 없습니다.  표준 보기를 사용할 수 없고 BlueXP 서비스를 활성화할 수 없습니다.</block>
+  <block id="f2fba5567ec0d8ae5addf04c960ba6d0" category="paragraph">BlueXP 개인 모드로 사용하는 경우 ASA r2 시스템 검색이 지원되지 않습니다.</block>
+  <block id="989977a18a476a92018e04dd60ec37c1" category="inline-link">ASA r2 시스템에 대해 자세히 알아보세요</block>
+  <block id="a7c7539e11570decc041c60258667032" category="list-text"><block ref="a7c7539e11570decc041c60258667032" category="inline-link-rx"></block></block>
+  <block id="62bd7572081df25dd3f1f52151883c4a" category="inline-link">BlueXP 배포 모드에 대해 알아보세요</block>
+  <block id="1fbeb219941cbb548a79e88d779ddaeb" category="list-text"><block ref="1fbeb219941cbb548a79e88d779ddaeb" category="inline-link-rx"></block></block>
+  <block id="613fbbb3f2dbf238c8527a537252e8ed" category="doc">개인 모드를 사용한 ASA r2 시스템 지원</block>
+  <block id="0d9e2244b8fb5d13651efe34b9723803" category="paragraph">이제 BlueXP 개인 모드로 사용할 때 NetApp ASA r2 시스템을 검색할 수 있습니다.  이 지원은 BlueXP 의 3.9.46 개인 모드 릴리스부터 사용할 수 있습니다.</block>
+  <block id="1da5a40083bd16c3443e7eda42875506" category="doc">BlueXP 액세스 역할이 필요합니다</block>
+  <block id="c86bd67be80794fcaa3f1d91aa8b2899" category="inline-link-macro">액세스 역할에 대해 알아보세요.</block>
+  <block id="c33f8c65624465d916ec23f462428c02" category="paragraph">이제 온프레미스 ONTAP 클러스터를 보고, 검색하고, 관리하려면 다음 액세스 역할 중 하나가 필요합니다. 조직 관리자, 폴더 또는 프로젝트 관리자, 스토리지 관리자 또는 시스템 상태 전문가. <block ref="77eb7cc86be774e9cb4fdfac100bd232" category="inline-link-macro-rx"></block></block>
+  <block id="bc2fe31b1e2682a9a79513d792e9c721" category="doc">BlueXP 는 이제 NetApp 콘솔입니다.</block>
+  <block id="995c8f79a8e07fbd8d519e45d03d6004" category="paragraph">강화되고 재구성된 BlueXP 기반을 기반으로 구축된 NetApp 콘솔은 엔터프라이즈급 온프레미스 및 클라우드 환경 전반에서 NetApp 스토리지와 NetApp 데이터 서비스를 중앙에서 관리하여 실시간 통찰력, 더 빠른 워크플로, 간소화된 관리를 제공하며, 높은 보안성과 규정 준수를 보장합니다.</block>
+  <block id="2ef9d641d45afe99b74ad6f9a9f797ad" category="inline-link-macro">NetApp 콘솔 릴리스 노트</block>
+  <block id="800c173937521899b70a4ab5d735d3d7" category="paragraph">변경된 사항에 대한 자세한 내용은 다음을 참조하세요.<block ref="b78e17cf58c4e309929c8d6a69594c7d" category="inline-link-macro-rx"></block> .</block>
+  <block id="8f091d30f3f7b297ff75d0037ea8d7bf" category="summary">디지털 어드바이저를 사용하면 ONTAP 클러스터의 운영, 보안 및 성능을 최적화할 수 있습니다.</block>
+  <block id="767f8e46413ca208f7f2fbdc36377c43" category="doc">NetApp Digital Advisor 사용하여 클러스터 최적화</block>
+  <block id="784fa467296efc0294ee0be27082dc4d" category="paragraph">NetApp Digital Advisor를 사용하면 ONTAP 클러스터의 운영, 보안 및 성능을 최적화할 수 있습니다.</block>
+  <block id="98f770b0af18ca763421bac22b4b6805" category="section-title">특징</block>
+  <block id="346661910d62d25c1475a0a09bd7a473" category="paragraph">Digital Advisor 사용하면 보관 시스템의 전반적인 상태, 시스템 상태에 대한 주요 정보, 재고, 계획, 업그레이드 및 관심 목록 수준에서 귀중한 통찰력을 볼 수 있습니다.</block>
+  <block id="cd5d4df84a7902a777304de9ff13e8a8" category="list-text">스토리지 시스템의 상태를 분석하고 최적화합니다.</block>
+  <block id="9d4e486fd4968dd03a1921222e688c12" category="list-text">저장 시스템에 대한 모든 위험과 위험을 완화하기 위한 조치에 대한 통찰력을 얻으십시오.</block>
+  <block id="4c8438807538fa50db0d24cda516c562" category="list-text">성능 데이터의 그래픽 형식을 보고 저장 장치의 성능을 분석하세요.</block>
+  <block id="63a792f0efaeee81d9e7f3ba251637c2" category="list-text">90% 용량을 초과했거나 90% 용량에 가까워지고 있는 시스템에 대한 세부 정보를 얻으세요.</block>
+  <block id="25bab72d979d2f781310fbd8a7510d1e" category="list-text">향후 6개월 이내에 만료되었거나 만료가 임박한 하드웨어 및 소프트웨어에 대한 정보를 얻으세요.</block>
+  <block id="c0b44a835cfaa8886063c96fb9342411" category="list-text">Ansible을 사용하여 스토리지 시스템 소프트웨어를 업그레이드하고 ONTAP 펌웨어를 업데이트하세요.</block>
+  <block id="696fbf3ecd0e89c737f9c5b7adddfb8e" category="section-title">지원되는 ONTAP 시스템</block>
+  <block id="506bd7eab061c4dfb862025b64c70f67" category="paragraph">Digital Advisor NetApp 지원 사이트(NSS) 계정과 연결된 모든 온프레미스 ONTAP 시스템 및 Cloud Volumes ONTAP 시스템에 대한 정보를 제공합니다.</block>
+  <block id="ab066b3292d8ab61ef3b5c77169cdd19" category="section-title">더 많은 정보</block>
+  <block id="ea7b2437ddd14dce6ba3f65494d634fd" category="inline-link">Digital Advisor 문서</block>
+  <block id="f38c64bbd8ec17fdea3c3b931a5333c6" category="paragraph"><block ref="f38c64bbd8ec17fdea3c3b931a5333c6" category="inline-link-rx"></block></block>
+  <block id="9be2e2782724eee71ac661baa093339d" category="summary">NetApp 콘솔에서 AFF/ FAS 컨트롤러와 ONTAP Select 에서 실행되는 ONTAP 클러스터를 관리할 수 있습니다.  NetApp 콘솔에 온프레미스 ONTAP 시스템을 추가하면 단일 인터페이스에서 모든 스토리지 및 데이터 자산을 관리할 수 있습니다.</block>
+  <block id="efd8b4aecde4d837ab44ddaf52e7657d" category="doc">NetApp 콘솔에서 온프레미스 ONTAP 클러스터 관리에 대해 알아보세요</block>
+  <block id="f79dd7235ac6a15f707932f36bda08ef" category="paragraph">NetApp 콘솔에서 AFF/ FAS 컨트롤러와 ONTAP Select 에서 실행되는 ONTAP 클러스터를 관리할 수 있습니다.  온프레미스 ONTAP 시스템을 콘솔에 추가하면 모든 스토리지와 데이터 자산을 중앙에서 관리할 수 있습니다.</block>
+  <block id="3c031b939f6ec312ee601d021e7a6644" category="section-title">NetApp 콘솔</block>
+  <block id="0a0979a6d279475a420ea5c279943daa" category="paragraph">NetApp 콘솔은 엔터프라이즈급 온프레미스 및 클라우드 환경 전반에서 NetApp 스토리지 및 데이터 서비스를 중앙에서 관리할 수 있는 기능을 제공합니다. NetApp 데이터 서비스에 액세스하고 사용하려면 콘솔이 필요합니다. 관리 인터페이스로서, 하나의 인터페이스에서 여러 스토리지 리소스를 관리할 수 있습니다. 콘솔 관리자는 기업 내 모든 시스템의 저장소와 서비스에 대한 액세스를 제어할 수 있습니다.</block>
+  <block id="7118a6b22768dabe4720d84710ea1e43" category="paragraph">NetApp Console을 사용하려면 라이선스나 구독이 필요하지 않으며, 스토리지 시스템이나 NetApp 데이터 서비스에 대한 연결을 보장하기 위해 클라우드에 Console 에이전트를 배포해야 할 때만 요금이 부과됩니다. 그러나 콘솔에서 액세스할 수 있는 일부 NetApp 데이터 서비스는 라이선스 기반이거나 구독 기반입니다.</block>
+  <block id="1a90436cad6b2c834a6f0bf4b63bb676" category="paragraph">자세히 알아보세요<block ref="185be9890bef04443cd0fba90b4aff11" category="inline-link-rx"></block> .</block>
+  <block id="fb24315d532abea28c978f8643868013" category="list-text">NFS 및 CIFS 볼륨 관리</block>
+  <block id="adb56ad9cd1545569d057a0870829609" category="list-text">콘솔을 통해 관리되는 모든 클러스터에 대한 ONTAP 시스템 관리자에 액세스합니다.</block>
+  <block id="149beeefe15ab521c1672c4e84d98080" category="list-text">분석 및 제어를 통해 건강 및 성과 관찰 가능</block>
+  <block id="6c8bfbe0372128cde27631bc56cfcf04" category="list-text">데이터 서비스를 사용하여 데이터를 복제, 백업, 스캔, 분류 및 계층화합니다.</block>
+  <block id="e6330d5106c771279d9ad23928f958fb" category="list-text">콘솔에서 하드웨어 및 소프트웨어 계약 상태 정보 보기</block>
+  <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">비용</block>
+  <block id="4021c0d07bda2ea80ded248828507d76" category="paragraph">비용이 발생할 수 있지만, 이는 다음 사항에 따라 달라집니다.</block>
+  <block id="57680964089872f9d337e05bf8bfb358" category="list-text">클러스터를 검색하고 관리하기 위해 콘솔 에이전트를 배포하는 곳입니다.</block>
+  <block id="e56122aac65ec47b6ddcc405622fcf5b" category="paragraph">클라우드나 사내에 콘솔 에이전트를 설치할 수 있습니다.  클라우드에 콘솔 에이전트를 설치하면 비용이 발생합니다.</block>
+  <block id="f2c1c0f041fc340f7b70252f040e3924" category="list-text">NetApp 백업 및 복구, NetApp 랜섬웨어 복원력 등과 같은 NetApp 데이터 서비스를 사용하는지 여부.</block>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">법적 고지 사항</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">법적 고지사항은 저작권 표시, 상표, 특허 등에 대한 정보를 제공합니다.</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">저작권</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">상표</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NETAPP, NETAPP 로고 및 NetApp 상표 페이지에 나열된 마크는 NetApp, Inc.의 상표입니다. 다른 회사 및 제품 이름은 해당 소유자의 상표일 수 있습니다.</block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">특허</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">NetApp 이 소유한 현재 특허 목록은 다음에서 확인할 수 있습니다.</block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">개인정보 보호정책</block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈소스</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">공지 파일은 NetApp 소프트웨어에서 사용되는 타사 저작권 및 라이선스에 대한 정보를 제공합니다.</block>
+  <block id="4fd101b562f1e5e8d87ff8710122a42f" category="inline-link">NetApp 콘솔에 대한 알림</block>
+  <block id="665acc6d2ee48d5efd698763b6fbf735" category="paragraph"><block ref="665acc6d2ee48d5efd698763b6fbf735" category="inline-link-rx"></block></block>
+  <block id="1eba71d64e6c5e410e558530711e835b" category="summary">알려진 제한 사항은 이 제품 릴리스에서 지원하지 않거나 올바르게 상호 운용되지 않는 플랫폼, 장치 또는 기능을 나타냅니다. 이러한 제한 사항을 주의 깊게 검토하세요.</block>
+  <block id="7b021d8490de77d09ad0aabce1db0694" category="doc">NetApp 콘솔에서 온프레미스 ONTAP 클러스터를 관리하는 데 알려진 제한 사항</block>
+  <block id="835e40a074ba47935e3e68e3452eb52f" category="section-title">ASA r2 시스템과 관련된 제한 사항</block>
+  <block id="d7e2ff6c1b6b7d25b9f3596567029677" category="paragraph">NetApp ASA r2 시스템을 검색한 후 시스템 관리자로 이동하게 됩니다.</block>
+  <block id="07e9fa47446b3dea7b31d268b8760d64" category="paragraph">ASA r2 시스템에서는 다른 관리 옵션을 사용할 수 없습니다.  표준 보기를 사용할 수 없고 NetApp 데이터 서비스를 활성화할 수 없습니다.</block>
+  <block id="51f9789c1f459351ccbb34c7b6043a74" category="section-title">지원되지 않는 클러스터</block>
+  <block id="d914c3ca19e356b58a16e8c87724687e" category="paragraph">SAML 인증으로 구성된 온프레미스 ONTAP 클러스터는 콘솔에서 지원되지 않습니다.</block>
+  <block id="3b4a393ec2775335fff67bde36ea1a2c" category="section-title">시스템 관리자 제한 사항</block>
+  <block id="c48fa27882b16b947546d090d526b250" category="paragraph">다음 시스템 관리자 기능은 콘솔에서 지원되지 않습니다.</block>
+  <block id="e710f9addfdf1e48c1320d497696c4fc" category="list-text">클러스터 설정</block>
+  <block id="7c42f36290d675f4df34ac5b9a187686" category="paragraph">온프레미스 ONTAP 클러스터에서 관리 IP 주소를 설정하고 관리자 비밀번호를 구성한 후 콘솔에서 클러스터를 검색할 수 있습니다.</block>
+  <block id="ee74e57c3f99de5bd2475a3fe235ef15" category="list-text">역할 기반 액세스 제어(콘솔 에이전트만 해당)</block>
+  <block id="5c782b002503290f00acf76f2db6e2fc" category="paragraph">콘솔 에이전트를 사용하여 온프레미스 ONTAP 클러스터를 검색하고 관리하는 경우 System Manager의 역할 기반 액세스 제어는 지원되지 않습니다.  검색 과정에서 관리자 자격 증명을 입력하라는 메시지가 표시됩니다.  해당 자격 증명은 시스템 관리자에서 수행되는 모든 작업에 사용됩니다.</block>
+  <block id="0f91ddbe2a031c0bffbbaf61ec855f75" category="paragraph">직접 검색 옵션을 사용하면 콘솔에서 시스템을 열 때마다 ONTAP 자격 증명으로 로그인하라는 메시지가 표시됩니다.</block>
+  <block id="7786dc709b32a1c2b29500a444f79e9a" category="list-text">NetApp 백업 및 복구 활성화</block>
+  <block id="48bf063e534e95acdf29f80c45924be0" category="paragraph">System Manager에서 백업 및 복구를 활성화하려면 클러스터 버전이 9.13.1이어야 합니다.</block>
+  <block id="7d782479a41a3941b57cc7c2b60d318a" category="inline-link">시작하는 방법을 알아보세요</block>
+  <block id="4e9d48b6b56c65fb46ddd5e6460277e9" category="paragraph">콘솔 에이전트를 사용하여 클러스터를 발견하지 못했다면 시스템 관리자(고급 보기)를 사용하여 백업 및 복구를 활성화할 수 없습니다.  하지만 온프레미스 클러스터에서 백업 및 복구를 콘솔에서 직접 활성화할 수 있습니다.<block ref="e3bdf105d163a62b1d83e3f92f872319" category="inline-link-rx"></block></block>
+  <block id="dc7f30ec5bd878efd2189fe1b0703118" category="list-text">주문형 업그레이드</block>
+  <block id="9eb06491d0dc3d6fae682e802616dce9" category="paragraph">클러스터 버전이 ONTAP 9.9.1 이하인 경우 펌웨어 및 소프트웨어의 주문형 업그레이드를 이용할 수 없습니다.</block>
+  <block id="face24e32703b96941a0a9f58cab36d4" category="paragraph">콘솔 에이전트가 없으면 로컬 머신에서 업데이트를 할 수 없고, 콘솔을 사용하여 액세스할 수 있는 서버에서만 업데이트를 할 수 있습니다.</block>
+  <block id="cff5bc039637fff679fead59b27d79c4" category="list-text">글로벌 검색</block>
+  <block id="382f24d48bc1efa5dd974e166ac8df58" category="list-text">사용자 인터페이스 설정</block>
+  <block id="969c8dcbcecafedce576ae70c4a3c692" category="summary">NetApp 콘솔에서 온프레미스 ONTAP 클러스터를 검색하여 콘솔에서 사용할 수 있는 ONTAP System Manager를 사용하여 볼륨을 관리하고 고급 관리를 수행할 수 있습니다.</block>
+  <block id="d1b29fc7b35be872f620d5d931e8766c" category="doc">NetApp 콘솔에서 온프레미스 ONTAP 클러스터를 검색하세요</block>
+  <block id="1730b42e5b59042dfdc6f3d1a901abe8" category="paragraph">NetApp 콘솔에서 온프레미스 ONTAP 클러스터를 검색하여 콘솔에서 바로 ONTAP System Manager를 사용하여 볼륨을 관리하고 고급 관리를 수행할 수 있습니다.</block>
+  <block id="087c69ac86f405646aaecdc0b84eba8d" category="paragraph-title">필수 콘솔 역할:</block>
+  <block id="dbbc09735940a2a21109b74dc600b92b" category="inline-link-macro">NetApp 콘솔 액세스 역할에 대해 알아보세요.</block>
+  <block id="0b1b216f94a80b2e5f3b3d7a4cad23c5" category="paragraph">스토리지 관리자 또는 시스템 상태 전문가.<block ref="f934f8c47ee938050655a3fea2497dd8" category="inline-link-macro-rx"></block></block>
+  <block id="d3d762abdaccb1dfe422eda709146098" category="section-title">1단계: 검색 및 관리 옵션 검토</block>
+  <block id="ae75b75301ec9eda499a56de00351e72" category="paragraph">온프레미스 ONTAP 클러스터를 콘솔에 추가하는 방법은 두 가지가 있습니다.  선택하는 방법은 조직에 콘솔 에이전트가 설치되어 있는지 여부에 따라 달라집니다.</block>
+  <block id="b2a374ced122f79938316510ffaddc25" category="list-text">콘솔 에이전트를 사용한 검색 및 관리</block>
+  <block id="a3736487d08fb63c22adeaf7035f0bca" category="list-text">이 옵션을 사용하면 다음 기능을 사용하여 ONTAP 8.3 이상을 실행하는 클러스터를 관리할 수 있습니다.</block>
+  <block id="cd003ebb69eeea87816020f61834620c" category="list-text">NetApp 콘솔을 통해 기본 볼륨 작업을 기본적으로 제공합니다.</block>
+  <block id="0b5d7397550ec392177f9f574abdf9c2" category="list-text">ONTAP 시스템 관리자( ONTAP 9.10.0 이상에서 지원), 콘솔에서 각 클러스터의 시스템 관리자에 직접 액세스</block>
+  <block id="a1471a8ede662ca724fd280a1005d7f9" category="list-text">데이터 복제, 백업 및 복구, 데이터 분류, 클라우드 계층화를 제공하는 NetApp 데이터 서비스와 통합</block>
+  <block id="d4a6e71a69daabc670296b6e5d940bcf" category="inline-link">귀하의 조직 관리자에게 문의하세요.</block>
+  <block id="2e85119401bde157dbfaceb326ffc24e" category="list-text">콘솔 에이전트를 설치하려면 조직 관리자 역할이 있어야 합니다.  질문이 있으시면 콘솔 관리자에게 문의하세요.<block ref="23553e4bd18aac58793088224d68bd3d" category="inline-link-rx"></block></block>
+  <block id="ed2669e12a2aca1d23d0391fe9aa4d4f" category="list-text">직접 발견 및 관리</block>
+  <block id="35a995f567662305fca4eed3895deb78" category="list-text">이 옵션을 사용하면 System Manager를 사용하여 ONTAP 9.12.1 이상을 실행하는 클러스터를 관리할 수 있습니다.  다른 관리 옵션은 없습니다.  표준 보기를 사용할 수 없고 NetApp 데이터 서비스를 활성화할 수 없습니다.</block>
+  <block id="aa6c67316f44ea02c19cc637b2c2ef63" category="paragraph">이 옵션에는 콘솔 에이전트가 필요하지 않습니다.</block>
+  <block id="e04b8c0ecfdcffe032cc01cf84214437" category="paragraph">콘솔에 연결된 9.12.1 이상을 실행하는 온프레미스 ONTAP 클러스터에서 System Manager에 액세스하는 경우 콘솔에서 직접 클러스터를 관리하라는 메시지가 표시됩니다.  이 프롬프트를 따르면 직접 검색 옵션을 사용하여 콘솔에서 클러스터를 검색합니다.</block>
+  <block id="63e4fa81df4f8716cfcd36c8cd6e6d22" category="paragraph">클러스터가 발견되면 콘솔의 *시스템* 페이지에서 해당 클러스터를 사용할 수 있습니다.</block>
+  <block id="87b2f736c3f72f1fe06a64c91dbe3f5e" category="paragraph">NetApp 콘솔에 콘솔 에이전트를 추가하기로 결정한 경우 *검색되지 않은 시스템* 페이지에서 온프레미스 클러스터를 다시 추가해야 합니다.  이를 통해 콘솔에서 기본적으로 관리하고 NetApp 데이터 서비스에 액세스할 수 있습니다.  그런 다음 다른 시스템을 제거해야 합니다.</block>
+  <block id="663060c661d21dbe1c32242cc8731f0e" category="section-title">2단계: 환경 설정</block>
+  <block id="3eb7e8933c13ab4b897e0a64baedf0fc" category="paragraph">온프레미스 ONTAP 클러스터를 검색하기 전에 다음 요구 사항을 충족했는지 확인하세요.</block>
+  <block id="a1a264e616e24563d4b8f8b5795ea403" category="list-text">일반 요구 사항</block>
+  <block id="7d0b01345a5038f25fdd17dc04d8872e" category="list-text">클러스터 관리 IP 주소와 관리자 사용자 계정의 비밀번호가 필요합니다.</block>
+  <block id="f1dc34ed21a60c010809ad3f51a48991" category="list-text">콘솔은 HTTPS를 사용하여 ONTAP 클러스터를 검색합니다.  사용자 지정 방화벽 정책을 사용하는 경우 ONTAP 클러스터는 포트 443을 통한 인바운드 HTTPS 액세스를 허용해야 합니다.</block>
+  <block id="c14049c05a3e44d0e3fae4bfd918619f" category="paragraph">기본 "mgmt" 방화벽 정책은 모든 IP에서 인바운드 HTTPS 액세스를 허용합니다.  수정된 경우 에이전트 호스트에 대해 HTTPS 프로토콜이 활성화되어 있는지 확인하세요.</block>
+  <block id="e82f46590519b9334e39aabe565ff654" category="list-text">콘솔 에이전트가 있는 시스템을 검색하려면</block>
+  <block id="8ab7236e714d67d0d2cdb0f6c0c6bdea" category="list-text">온프레미스 클러스터는 ONTAP 8.3 이상을 실행해야 합니다.</block>
+  <block id="98a48922296ab16b4da9f0a6ddd0c403" category="list-text">클라우드 공급자나 사내에 콘솔 에이전트가 설치되어 있어야 합니다.</block>
+  <block id="170449681ba6744c89ff5e9d6f3adc86" category="paragraph">콜드 데이터를 클라우드로 계층화하려면 대상 환경에 대한 에이전트 요구 사항을 검토하세요.</block>
+  <block id="91e534d044a3d9c6a1c8575f89e73c9b" category="inline-link">콘솔 에이전트에 대해 알아보세요</block>
+  <block id="299091a5cbcad3c418786b0de4d0c3b0" category="list-text"><block ref="299091a5cbcad3c418786b0de4d0c3b0" category="inline-link-rx"></block></block>
+  <block id="096686bce670ae5bcba683b41a15fa90" category="inline-link">여러 에이전트 간 전환 방법 알아보기</block>
+  <block id="de4fbbe08ea86732dd8f806479644bdd" category="list-text"><block ref="de4fbbe08ea86732dd8f806479644bdd" category="inline-link-rx"></block></block>
+  <block id="3b50aa74e0572012073a00299390197e" category="inline-link">NetApp 클라우드 계층화에 대해 알아보세요</block>
+  <block id="096f3dec18cbaace57ae0aed5243222a" category="list-text"><block ref="096f3dec18cbaace57ae0aed5243222a" category="inline-link-rx"></block></block>
+  <block id="5caa875315778ebb3bef681af57a0582" category="list-text">에이전트 호스트는 포트 443(HTTPS)을 통한 아웃바운드 연결을 허용해야 하고 ONTAP 클러스터는 포트 443을 통해 클러스터 관리 LIF에 대한 인바운드 HTTP 액세스를 허용해야 합니다.</block>
+  <block id="58ff78936b6d73707a74f4aca22c20be" category="paragraph">에이전트가 클라우드에 있는 경우, 미리 정의된 보안 그룹은 모든 아웃바운드 통신을 허용합니다.</block>
+  <block id="be8c0cb1018ac37d4931901b25f4d7b8" category="list-text">직접 발견에 대한 요구 사항</block>
+  <block id="971b56bb19698ede33f8f4ef782f3774" category="list-text">온프레미스 클러스터는 ONTAP 9.12.1 이상을 실행해야 합니다.</block>
+  <block id="b1268d5945309a2b623dbac8ed28bc83" category="list-text">클러스터에는 NetApp 콘솔 서비스에 대한 인바운드 및 아웃바운드 연결이 있어야 합니다.</block>
+  <block id="3693065b074c131d0dd4c103327a1d7b" category="paragraph">\ https://cloudmanager.cloud.netapp.com/ontap-service/check-service-connection 체크</block>
+  <block id="933d8167f78326f447f349f9de4ec3e0" category="list-text">콘솔에 액세스하는 데 사용하는 컴퓨터는 온프레미스 ONTAP 클러스터에 대한 네트워크 연결이 있어야 합니다. 이는 개인 네트워크의 다른 리소스에 대한 연결을 제공하는 방식과 유사합니다.</block>
+  <block id="f06497cae9ab6e78fd37893cdca029bd" category="section-title">3단계: 클러스터 검색</block>
+  <block id="8296ca45bb7cfe0620a93ad852c01e35" category="paragraph">다음 두 가지 방법 중 하나로 콘솔에서 온프레미스 ONTAP 클러스터를 검색하세요.</block>
+  <block id="2e5085fdc5b66595ab2026e38c938367" category="list-text">*저장소 &gt; 관리 &gt; 시스템*에서 *추가+*를 선택하고 온-프레미스 ONTAP 클러스터에 대한 세부 정보를 수동으로 추가합니다.</block>
+  <block id="dba7205afc7b2cf67d79ecc081c7b835" category="list-text">*저장소 &gt; 관리 &gt; 검색 시스템*에서 NetApp 콘솔 로그인에 대한 이메일 주소와 연결된 ONTAP 클러스터를 기반으로 콘솔이 미리 검색한 클러스터를 선택합니다.</block>
+  <block id="435159e696cefb3c80615ee1022a13b4" category="paragraph">검색 프로세스를 시작하면 콘솔은 다음과 같이 클러스터를 검색합니다.</block>
+  <block id="0cf68afd6fcf0f4c0e3a949071596993" category="list-text">ONTAP 클러스터에 연결된 콘솔 에이전트가 있는 경우 콘솔은 해당 에이전트를 사용하여 클러스터를 검색하고 관리합니다.</block>
+  <block id="7a166f4df60b8338eed8bc558eb640f0" category="list-text">콘솔 에이전트가 없거나 에이전트가 ONTAP 클러스터에 연결되어 있지 않으면 콘솔은 자동으로 직접 검색 및 관리 옵션을 사용합니다.</block>
+  <block id="c77ba8df974ac9ac198176dcff4f8f52" category="open-title">클러스터를 수동으로 검색</block>
+  <block id="93cbb61b2565b6dbf0515c41d562ae14" category="paragraph">콘솔에서 클러스터 관리 IP 주소와 관리자 사용자 계정의 비밀번호를 입력하여 온프레미스 ONTAP 클러스터를 검색합니다.</block>
+  <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">단계</block>
+  <block id="c27deb5ada399336a287848889d2032c" category="list-text">탐색 메뉴에서 *저장소 &gt; 관리*를 선택합니다.</block>
+  <block id="b13f80bab35d0e5b24adc2f1065c5fdf" category="list-text">*시스템* 페이지에서 *추가+*를 선택합니다.</block>
+  <block id="57a68d192721201de4e91a2f05ce058b" category="list-text">*온프레미스*를 선택하세요.</block>
+  <block id="2901a10a7b1d7a91ad19913b88e371a6" category="list-text">온프레미스 ONTAP 옆에서 *검색*을 선택합니다.</block>
+  <block id="1de006c684d29369fa4392137f9a3894" category="list-text">_검색_ 페이지에서 클러스터 관리 IP 주소와 관리자 사용자 계정의 비밀번호를 입력합니다.</block>
+  <block id="b9c1f4eb5bf92f6b86d5028551817828" category="list-text">콘솔 에이전트 없이 클러스터를 직접 검색하는 경우 *자격 증명 저장*을 선택합니다.</block>
+  <block id="485163f9cb024aaf7afa931910bacb59" category="paragraph">이 옵션을 선택하면 콘솔에서 시스템에 액세스할 때마다 자격 증명을 다시 입력할 필요가 없습니다.  이러한 자격 증명은 귀하의 NetApp 콘솔 사용자 로그인과 연결됩니다.  NetApp 콘솔 조직의 다른 사람이 사용할 수 있도록 저장되지 않습니다.</block>
+  <block id="6717014f0e48b7ab08c9846925b42c93" category="list-text">*발견*을 선택하세요.</block>
+  <block id="0af90a54ff3386d3c7f24ab678bc3945" category="paragraph">콘솔 에이전트가 없고 콘솔에서 IP 주소에 접근할 수 없는 경우 콘솔 에이전트를 만들라는 메시지가 표시됩니다.  콘솔 에이전트가 없으면 콘솔 관리자에게 문의하여 콘솔 에이전트를 만드세요.</block>
+  <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">결과</block>
+  <block id="e0a9be6d70e2b6cb105481ef3f492446" category="paragraph">콘솔은 검색된 클러스터를 *시스템* 페이지에 시스템으로 추가합니다. 이제 클러스터 관리를 시작할 수 있습니다.</block>
+  <block id="299867ed6070a6cda18ae92e5d434213" category="inline-link-macro">직접 검색된 클러스터를 관리하는 방법을 알아보세요.</block>
+  <block id="c3995876aaed94f3589c1d9b516d3805" category="list-text"><block ref="c3995876aaed94f3589c1d9b516d3805" category="inline-link-macro-rx"></block></block>
+  <block id="0453a9f0adad145b25cfdf23836cf986" category="inline-link-macro">콘솔 에이전트로 검색된 클러스터를 관리하는 방법을 알아보세요.</block>
+  <block id="e2c6a7875938c9c1b6c4cd6512ef1725" category="list-text"><block ref="e2c6a7875938c9c1b6c4cd6512ef1725" category="inline-link-macro-rx"></block></block>
+  <block id="50bc63d3ce96c1c059c531930e9b1ccc" category="open-title">미리 검색된 클러스터 추가</block>
+  <block id="d98fb334a40f1451770cc167b056faa2" category="paragraph">콘솔은 로그인 이메일에 연결된 ONTAP 클러스터를 검색하고 이를 *검색 가능한 시스템* 페이지에 검색되지 않은 클러스터로 표시합니다.  발견되지 않은 클러스터 목록을 보고 하나씩 추가할 수 있습니다.</block>
+  <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">이 작업에 관하여</block>
+  <block id="197b34d819974addadfe4ebfa0e9caed" category="paragraph">*검색 가능한 시스템* 페이지에 나타나는 온프레미스 ONTAP 클러스터에 대해 다음 사항을 참고하세요.</block>
+  <block id="d608748d30b65126cde843fad7310cca" category="list-text">콘솔에 로그인하는 데 사용하는 이메일 주소는 등록된 전체 수준 NetApp 지원 사이트(NSS) 계정과 연결되어야 합니다.</block>
+  <block id="8319f3680eb39ed6d3cf49d88c4bbdfa" category="list-text">NSS 계정으로 콘솔에 로그인하고 *검색 가능한 시스템* 페이지로 이동하면 콘솔은 해당 NSS 계정을 사용하여 계정과 연결된 클러스터를 찾습니다.</block>
+  <block id="3aaa86c6c9eab3f600bc23bde0047763" category="list-text">로컬 계정이나 페더레이션 연결을 사용하여 콘솔에 로그인하고 *검색 가능한 시스템* 페이지로 이동하면 콘솔에서 이메일을 확인하라는 메시지가 표시됩니다.  해당 이메일 주소가 NSS 계정과 연결되어 있는 경우 콘솔은 해당 정보를 사용하여 해당 계정과 연결된 클러스터를 찾습니다.</block>
+  <block id="d550fcc1542a17f7a26ff22860afa620" category="list-text">콘솔에는 NetApp 에 ​​AutoSupport 메시지를 성공적으로 보낸 ONTAP 클러스터만 표시됩니다.</block>
+  <block id="b85049c68ea838035f2d0a6a579b4c1b" category="list-text">인벤토리 목록을 새로 고치려면 *검색 가능한 시스템* 페이지를 종료하고 5분간 기다린 후 다시 돌아오세요.</block>
+  <block id="513c356dd1e7dd7137d642be2b540c72" category="list-text">*검색 가능한 시스템* 페이지에서 온-프레미스 ONTAP 에 대한 *검색*을 선택합니다.</block>
+  <block id="fa855b00dc3ef3d4581d88ac0367d305" category="inline-image-macro">12개의 검색되지 않은 온프레미스 ONTAP 클러스터를 보여주는 검색 가능한 시스템 페이지의 스크린샷입니다.</block>
+  <block id="f28eb0a3fd5555f479ab815569393176" category="paragraph"><block ref="f28eb0a3fd5555f479ab815569393176" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7689e37bac08b82f66558bf21e5ea57d" category="list-text">클러스터를 선택한 다음 *검색*을 선택하세요.</block>
+  <block id="1b437ef82724c92ca6ff7c3c322cd040" category="paragraph"><block ref="1b437ef82724c92ca6ff7c3c322cd040" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="eecdf85dabb12fb229d35075dd322550" category="list-text">관리자 사용자 계정의 비밀번호를 입력하세요.</block>
+  <block id="2b3c35ab7bf544cbfd4bda7b2b84c68d" category="paragraph">콘솔 에이전트가 없고 콘솔에서 IP 주소에 접근할 수 없는 경우 콘솔 에이전트를 만들라는 메시지가 표시됩니다.  콘솔 에이전트가 없으면 콘솔 관리자에게 문의하여 콘솔 에이전트를 만드세요.</block>
+  <block id="5ae9e7fffccf52fce94c993af9db9dfa" category="summary">NetApp 다양한 방법으로 지원을 제공합니다. 지식 기반(KB) 문서와 커뮤니티 포럼 등 광범위한 무료 셀프 지원 옵션을 연중무휴 24시간 이용할 수 있습니다. 지원 등록 시 웹 티켓팅을 통한 원격 기술 지원이 제공됩니다.</block>
+  <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">도움을 받으세요</block>
+  <block id="2feeca48692986e9cc471ec61f847fca" category="paragraph">NetApp 다양한 방법으로 NetApp Console과 클라우드 서비스에 대한 지원을 제공합니다. 지식 기반(KB) 문서와 커뮤니티 포럼 등 광범위한 무료 셀프 지원 옵션을 24시간 연중무휴로 이용할 수 있습니다. 지원 등록 시 웹 티켓팅을 통한 원격 기술 지원이 제공됩니다.</block>
+  <block id="522cbb900314aeb84eb5a961c5f94672" category="section-title">클라우드 공급자 파일 서비스에 대한 지원을 받으세요</block>
+  <block id="317cbd2c4fdbfd06a6c66bcd3f57d7ad" category="paragraph">클라우드 공급자 파일 서비스, 해당 인프라 또는 서비스를 사용하는 솔루션과 관련된 기술 지원에 대해서는 해당 제품의 설명서를 참조하세요.</block>
+  <block id="18cf072964a583150dd247485ba75b92" category="inline-link-macro">ONTAP 용 Amazon FSx</block>
+  <block id="359d8b16e442ffaa72e03c95fcd60448" category="list-text"><block ref="359d8b16e442ffaa72e03c95fcd60448" category="inline-link-macro-rx"></block></block>
+  <block id="7450cfde7058dc5e1f7909d0280fd7ae" category="inline-link-macro">Azure NetApp Files</block>
+  <block id="153836c062a78213f2aa165322254aa4" category="list-text"><block ref="153836c062a78213f2aa165322254aa4" category="inline-link-macro-rx"></block></block>
+  <block id="1215f8190533dfdf63d2224a6d88266f" category="inline-link-macro">Google Cloud NetApp Volumes</block>
+  <block id="0d592360c983f234b130127efee38805" category="list-text"><block ref="0d592360c983f234b130127efee38805" category="inline-link-macro-rx"></block></block>
+  <block id="68e6fe8cde496154d24fd032b4262070" category="paragraph">NetApp 과 해당 스토리지 솔루션, 데이터 서비스에 대한 특정 기술 지원을 받으려면 아래에 설명된 지원 옵션을 사용하세요.</block>
+  <block id="edd15fbeb7b2dffa163336ecd4f3e80c" category="section-title">셀프 지원 옵션 사용</block>
+  <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">다음 옵션은 주 7일, 하루 24시간 무료로 이용 가능합니다.</block>
+  <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">설명서</block>
+  <block id="5bb94d173380c00577f5e04b6f26bb94" category="paragraph">현재 보고 있는 NetApp 콘솔 문서입니다.</block>
+  <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">지식 기반</block>
+  <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
+  <block id="0e20091afcea2d83d0033a933ba85092" category="paragraph">NetApp 지식 기반을 검색하여 문제 해결에 도움이 되는 문서를 찾아보세요.</block>
+  <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">커뮤니티</block>
+  <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
+  <block id="777d75a90b107e4f18469f82c4f81fe2" category="paragraph">NetApp Console 커뮤니티에 가입하여 진행 중인 토론을 팔로우하거나 새로운 토론을 만들어 보세요.</block>
+  <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">NetApp 지원을 통해 사례 만들기</block>
+  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">위에 나열된 셀프 지원 옵션 외에도, 지원을 활성화한 후 NetApp 지원 전문가와 협력하여 문제를 해결할 수 있습니다.</block>
+  <block id="8fece025a1a8fef7018449bf104a2527" category="list-title">시작하기 전에</block>
+  <block id="c406bf0ac8ac87bc5bb7132a7351b2ae" category="inline-link">콘솔 로그인과 관련된 자격 증명을 관리하는 방법을 알아보세요.</block>
+  <block id="377118f28487e70bd456993144b72fc7" category="list-text">*사례 만들기* 기능을 사용하려면 먼저 NetApp 지원 사이트 자격 증명을 콘솔 로그인과 연결해야 합니다.<block ref="68c4321a756e3ffe955b62cff6fea46d" category="inline-link-rx"></block> .</block>
+  <block id="e49aa971c20ec071f1b5bbc3c7266769" category="list-text">일련 번호가 있는 ONTAP 시스템에 대한 사례를 개설하는 경우 NSS 계정은 해당 시스템의 일련 번호와 연결되어야 합니다.</block>
+  <block id="0ab80a63088581d58dcf067051f4c894" category="list-text">NetApp 콘솔에서 *도움말 &gt; 지원*을 선택합니다.</block>
+  <block id="08d96fdd1a845d80db99e6e1dffb8bc7" category="list-text">*리소스* 페이지에서 기술 지원 아래에 있는 사용 가능한 옵션 중 하나를 선택하세요.</block>
+  <block id="6a1b74969231967ed071d465206b15c7" category="list-text">전화로 상담원과 통화하고 싶으시면 *전화하기*를 선택하세요. netapp.com에서 전화할 수 있는 전화번호가 나열된 페이지로 이동하게 됩니다.</block>
+  <block id="d65a2a6fc9caad1867728d4382eeb989" category="list-text">NetApp 지원 전문가에게 티켓을 열려면 *사례 만들기*를 선택하세요.</block>
+  <block id="a1123cd59d7bd876c080c33906ae65ce" category="list-text">*서비스*: 문제와 관련된 서비스를 선택하세요. 예를 들어, * NetApp 콘솔*은 콘솔 내 워크플로나 기능에 대한 기술 지원 문제에 특화되어 있습니다.</block>
+  <block id="987df7518e2afb50a860647c832afd13" category="list-text">*시스템*: 스토리지에 해당되는 경우 * Cloud Volumes ONTAP* 또는 *온프레미스*를 선택한 다음 연관된 작업 환경을 선택합니다.</block>
+  <block id="8f8e8a86e5f52b6186a37bdf266c4320" category="paragraph">시스템 목록은 콘솔 조직 범위 내에 있으며, 상단 배너에서 선택한 콘솔 에이전트입니다.</block>
+  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*사례 우선순위*: 낮음, 보통, 높음 또는 중요로 사례의 우선순위를 선택합니다.</block>
+  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">이러한 우선순위에 대한 자세한 내용을 알아보려면 필드 이름 옆에 있는 정보 아이콘 위에 마우스를 올려놓으세요.</block>
+  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*문제 설명*: 해당 오류 메시지나 수행한 문제 해결 단계를 포함하여 문제에 대한 자세한 설명을 제공하세요.</block>
+  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*추가 이메일 주소*: 이 문제를 다른 사람에게 알리려면 추가 이메일 주소를 입력하세요.</block>
+  <block id="c7f5c1a75acc58c6f004efc0ce1eba09" category="list-text">*첨부파일(선택사항)*: 최대 5개의 첨부파일을 한 번에 하나씩 업로드하세요.</block>
+  <block id="bfa80e7aaad6da353b431bff3a0e12d6" category="paragraph">첨부파일은 파일당 25MB로 제한됩니다. 다음 파일 확장자가 지원됩니다: txt, log, pdf, jpg/jpeg, rtf, doc/docx, xls/xlsx, csv.</block>
+  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">NetApp 지원팀에 사례를 생성할 수 있는 사례 생성 양식의 스크린샷입니다.</block>
+  <block id="77c89527ec8a9f89b24c5579d19b3b4b" category="paragraph"><block ref="77c89527ec8a9f89b24c5579d19b3b4b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">당신이 완료한 후</block>
+  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">지원 사례 번호가 포함된 팝업이 나타납니다. NetApp 지원 전문가가 귀하의 사례를 검토하고 곧 연락드릴 것입니다.</block>
+  <block id="0ff9b4b8684b9e03c9c1e1320935eae3" category="paragraph">지원 사례 기록을 보려면 *설정 &gt; 타임라인*을 선택하고 "지원 사례 만들기"라는 이름의 작업을 찾으세요. 가장 오른쪽에 있는 버튼을 누르면 동작을 확장하여 자세한 내용을 볼 수 있습니다.</block>
+  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">사례를 생성하려고 할 때 다음과 같은 오류 메시지가 나타날 수 있습니다.</block>
+  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"선택한 서비스에 대해 사례를 생성할 권한이 없습니다."</block>
+  <block id="178fdaf97b1d1577437f11ee9d5e5229" category="paragraph">이 오류는 NSS 계정과 해당 계정과 연결된 기록상 회사가 NetApp 콘솔 계정 일련 번호에 대한 기록상 회사와 동일하지 않다는 것을 의미할 수 있습니다(예: 960xxxx) 또는 작업 환경 일련 번호. 다음 옵션 중 하나를 사용하여 도움을 요청할 수 있습니다.</block>
+  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">비기술적 사례를 제출하세요<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
+  <block id="e1100b46295d42ed50ba7a4630710164" category="section-title">지원 사례 관리</block>
+  <block id="316508a3483178100806a9d44b49aba2" category="paragraph">콘솔에서 직접 활성화된 지원 사례와 해결된 지원 사례를 보고 관리할 수 있습니다. 귀하의 NSS 계정 및 회사와 관련된 사례를 관리할 수 있습니다.</block>
+  <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">다음 사항에 유의하세요.</block>
+  <block id="5e4e7672ec2ba2b8a763da7f6714e212" category="list-text">페이지 상단의 사례 관리 대시보드는 두 가지 보기를 제공합니다.</block>
+  <block id="01c3ffea552d74a5ae390b10e71a1f26" category="list-text">왼쪽 보기는 귀하가 제공한 NSS 계정 사용자에 의해 지난 3개월 동안 열린 총 사례를 보여줍니다.</block>
+  <block id="e3b6c09a5686233f72ce1ea60a1eb088" category="list-text">오른쪽 보기는 사용자 NSS 계정을 기준으로 지난 3개월 동안 회사 수준에서 열린 총 사례를 보여줍니다.</block>
+  <block id="b19b168cc8a2b8c984465e140256b3a2" category="paragraph">표의 결과는 귀하가 선택한 보기와 관련된 사례를 반영합니다.</block>
+  <block id="56dcadeee6b0e5c47a52673f9b5a0bb3" category="list-text">관심 있는 열을 추가하거나 제거할 수 있으며, 우선순위 및 상태와 같은 열의 내용을 필터링할 수 있습니다. 다른 열은 정렬 기능만 제공합니다.</block>
+  <block id="6f936762e1223311f031685422fcd3a4" category="paragraph">자세한 내용은 아래 단계를 참조하세요.</block>
+  <block id="b14929795a61440e9b4ec9f8a4885ae3" category="list-text">사례별로 사례 메모를 업데이트하거나 아직 닫힘 또는 닫힘 보류 상태가 아닌 사례를 닫는 기능을 제공합니다.</block>
+  <block id="9163e8bca6fd93c080d35ab49e3efdfa" category="list-text">NetApp 콘솔에서 *도움말 &gt; 지원*을 선택합니다.</block>
+  <block id="2019fd19051c3ef493dbbb9ca65bab87" category="list-text">*사례 관리*를 선택하고 메시지가 표시되면 콘솔에 NSS 계정을 추가합니다.</block>
+  <block id="75e54e3a6fdbf43ed890669e079d7594" category="paragraph">*사례 관리* 페이지는 콘솔 사용자 계정과 연결된 NSS 계정과 관련된 미해결 사례를 표시합니다. 이는 *NSS 관리* 페이지 상단에 표시되는 NSS 계정과 동일합니다.</block>
+  <block id="2ae5ae78bdb2d222f15fd8e89248709c" category="list-text">필요에 따라 표에 표시되는 정보를 수정합니다.</block>
+  <block id="1d39d3ab518e1e3f16cbafb2a56e1fd9" category="list-text">*조직 사례*에서 *보기*를 선택하면 회사와 관련된 모든 사례를 볼 수 있습니다.</block>
+  <block id="059e856250b59be3069246887b74a23c" category="list-text">정확한 날짜 범위를 선택하거나 다른 기간을 선택하여 날짜 범위를 수정하세요.</block>
+  <block id="a1bb576be9e5a356290f231efb51b3f5" category="list-text">열의 내용을 필터링합니다.</block>
+  <block id="1c6ea5ef583389e18e7d7bda70beaa71" category="inline-image-macro">표에 나타나는 플러스 아이콘</block>
+  <block id="8ac6be88c1aa79062825a147fb263b0e" category="list-text">표에 나타나는 열을 변경하려면 다음을 선택하세요.<block ref="500a336e7ba1c54bcffba4e27bda4eb6" category="inline-image-macro-rx" type="image"></block> 그런 다음 표시하려는 열을 선택합니다.</block>
+  <block id="ad0ae9ea1f2e8d973a9a0f6bb169f494" category="inline-image-macro">표의 마지막 열에 나타나는 세 개의 점이 있는 아이콘</block>
+  <block id="049b7b9fab1242f5e715952973c9474d" category="list-text">기존 사례를 관리하려면 다음을 선택하세요.<block ref="7381d9baeaf62eb099ce84f1a21ed5ca" category="inline-image-macro-rx" type="image"></block> 그리고 사용 가능한 옵션 중 하나를 선택하세요:</block>
+  <block id="6d9dd74e7709ef802d299966f7898f6b" category="list-text">*사례 보기*: 특정 사례에 대한 전체 세부 정보를 확인하세요.</block>
+  <block id="8e6b52a532a4fbbfc98dca3ebfa5f1e6" category="list-text">*사례 메모 업데이트*: 문제에 대한 추가 세부 정보를 제공하거나 *파일 업로드*를 선택하여 최대 5개의 파일을 첨부하세요.</block>
+  <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">*사건 종결*: 사건을 종결하는 이유를 자세히 입력하고 *사건 종결*을 선택하세요.</block>
+  <block id="a9d2b231be58ba78da487485a012df4d" category="summary">콘솔 에이전트를 사용하여 온프레미스 ONTAP 클러스터를 발견한 경우 표준 보기에서 볼륨을 생성하고, 고급 보기에서 시스템 관리자를 사용하고, NetApp 데이터 서비스를 활성화할 수 있습니다.</block>
+  <block id="c6b00f700b6dcffdab6b25d4859b46d6" category="doc">콘솔 에이전트로 검색된 클러스터 관리</block>
+  <block id="881287054d54d10a72082525431b4094" category="paragraph">콘솔 에이전트를 사용하여 온프레미스 ONTAP 클러스터를 발견한 경우 NetApp 콘솔에서 직접 볼륨을 생성하고, 고급 관리를 위해 ONTAP System Manager(콘솔에서 직접)에 액세스하고, NetApp 데이터 서비스를 활성화할 수 있습니다.</block>
+  <block id="f3d96e033470d8fb9d043aed29754d44" category="paragraph-title">필요한 NetApp 콘솔 역할:</block>
+  <block id="34333d2783171ddc2c4a2d45b04576db" category="inline-link-macro">콘솔 액세스 역할에 대해 알아보세요.</block>
+  <block id="b6972ad05aaffd2256e1f4196b3f0181" category="paragraph">스토리지 관리자 또는 시스템 상태 전문가.<block ref="22172649aa14c41e7c407b3a26adac77" category="inline-link-macro-rx"></block></block>
+  <block id="cf211f2f2ca8898d52b780cfc60bdcf8" category="paragraph">*시스템* 페이지에서 콘솔 에이전트로 검색한 클러스터의 시스템 아이콘은 다음과 비슷하게 표시됩니다.</block>
+  <block id="9bd6333fd6e2ed164aa82d89dafc36c1" category="inline-image-macro">콘솔 에이전트로 클러스터를 검색했을 때 나타나는 시스템 아이콘의 스크린샷입니다.</block>
+  <block id="120e83f6a9a03904f641af7138dda0cf" category="paragraph"><block ref="120e83f6a9a03904f641af7138dda0cf" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1b1875649f81731ada50212ba023b95d" category="paragraph">시스템을 직접 발견하면 시스템 아이콘에 "직접"이라는 단어가 표시됩니다.</block>
+  <block id="4edb0a9cc3286a0bbb7212a914b6e120" category="section-title">NetApp 콘솔에서 FlexVol 볼륨 생성</block>
+  <block id="82a5e9967af6f4bedeeea9542788633b" category="paragraph">콘솔 에이전트를 사용하여 온프레미스 ONTAP 클러스터를 콘솔에 추가한 후 콘솔에서 직접 FlexVol 볼륨을 프로비저닝하고 관리할 수 있습니다.</block>
+  <block id="6fe0e1924361c77ff96555f402550a91" category="paragraph">콘솔을 사용하면 기존 집계에 NFS 또는 CIFS 볼륨을 생성할 수 있습니다.  온프레미스 ONTAP 클러스터에서 기본 콘솔 페이지에서 새로운 집계를 생성할 수는 없습니다. 그러나 콘솔에서 해당 ONTAP 시스템 관리자에 액세스하여 집계를 생성할 수 있습니다.</block>
+  <block id="07862f39f97a91d6da489cb9fcbd4a6e" category="list-text">*시스템* 페이지에서 볼륨을 프로비저닝할 온프레미스 ONTAP 클러스터를 선택합니다.</block>
+  <block id="ba426b409f9ec6763d7b1ecebd5d576f" category="list-text">*볼륨 &gt; 볼륨 추가*를 선택합니다.</block>
+  <block id="108a74a6cbb575c986177039e07dc411" category="list-text">마법사의 단계에 따라 볼륨을 생성합니다.</block>
+  <block id="a28aaa114e91d430f853038c9ac17766" category="list-text">*세부 정보, 보호 및 태그*: 볼륨의 이름, 크기 등 볼륨에 대한 세부 정보를 입력하고 스냅샷 정책을 선택합니다.</block>
+  <block id="3b0e375a08fe94a129cba31916c9d2dc" category="paragraph">이 페이지의 일부 필드는 설명이 필요 없습니다.  다음 목록은 지침이 필요할 수 있는 필드를 설명합니다.</block>
+  <block id="6f16a5f8ff5d75ab84c018adacdfcbb7" category="cell">필드</block>
+  <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">설명</block>
+  <block id="6f6cb72d544962fa333e2e34ce64f719" category="cell">크기</block>
+  <block id="f0969d995c7dbb837aab515d5c8cf9cd" category="cell">최대 크기는 씬 프로비저닝을 활성화하는지 여부에 따라 달라집니다. 씬 프로비저닝을 활성화하면 사용 가능한 물리적 저장소보다 큰 볼륨을 만들 수 있습니다.</block>
+  <block id="426fb47479d0477ed5dbc9388b9add76" category="cell">스냅샷 정책</block>
+  <block id="a64d5e9b653437dfe9118e099d6e5fe0" category="cell">스냅샷 복사 정책은 NetApp 스냅샷 복사본을 얼마나 자주, 얼마나 많이 생성할지 정의합니다.  NetApp 스냅샷 복사본은 성능에 영향을 미치지 않고 최소한의 저장 공간만 필요한 특정 시점의 파일 시스템 이미지입니다.  기본 정책을 선택하거나 아무것도 선택하지 않을 수 있습니다.  Microsoft SQL Server의 임시 데이터베이스(tempdb)와 같은 일시적인 데이터의 경우에는 아무것도 선택하지 않을 수 있습니다.</block>
+  <block id="17b6d3e2bf5506b5e797dfb98b76c0c2" category="list-text">*프로토콜*: 볼륨에 대한 프로토콜(NFS, CIFS 또는 iSCSI)을 선택한 다음 볼륨에 대한 액세스 제어 또는 권한을 설정합니다.</block>
+  <block id="f5296ac4fcfeea3d9c6e0ac9781d4fb4" category="paragraph">서버 없이 CIFS를 선택하는 경우, 시스템은 Active Directory나 작업 그룹을 사용하여 CIFS를 구성하라는 메시지를 표시합니다.</block>
+  <block id="10ca883ec839df9958683234c16faa0c" category="paragraph">다음 목록은 지침이 필요할 수 있는 필드를 설명합니다.</block>
+  <block id="8aaaedc342a0dce1d73d33f3fb69a2af" category="cell">접근 제어</block>
+  <block id="b144a097e0b772113f639011f9d76708" category="cell">NFS 내보내기 정책은 볼륨에 액세스할 수 있는 서브넷의 클라이언트를 정의합니다.  기본적으로 콘솔은 서브넷의 모든 인스턴스에 대한 액세스를 제공하는 값을 입력합니다.</block>
+  <block id="4f365bcd27fae641194545a5a823e30f" category="cell">권한 및 사용자/그룹</block>
+  <block id="5cd4beaa083f2301775c1a1bc84f2afc" category="cell">이러한 필드를 사용하면 사용자 및 그룹의 SMB 공유에 대한 액세스 수준(액세스 제어 목록 또는 ACL이라고도 함)을 제어할 수 있습니다.  로컬 또는 도메인 Windows 사용자나 그룹, 또는 UNIX 사용자나 그룹을 지정할 수 있습니다.  도메인 Windows 사용자 이름을 지정하는 경우 domain\username 형식을 사용하여 사용자 도메인을 포함해야 합니다.</block>
+  <block id="a17ea0b6ec5074b6e385c43de80e900d" category="list-text">*사용 프로필*: 필요한 총 저장 용량을 줄이기 위해 볼륨에서 저장 효율성 기능을 활성화할지 비활성화할지 선택합니다.</block>
+  <block id="b664e4294e5d14d6fd3d39615d4e3341" category="list-text">*검토*: 볼륨에 대한 세부 정보를 검토한 후 *추가*를 선택합니다.</block>
+  <block id="18f620d7129450814e89dd8624baaabd" category="section-title">NetApp 콘솔 API를 사용하여 FlexGroup 볼륨 만들기</block>
+  <block id="be168fd03f07ecad35da4b2f85259c97" category="paragraph">NetApp 콘솔 API를 사용하여 FlexGroup 볼륨을 생성할 수 있습니다.  FlexGroup 볼륨은 자동 부하 분산과 함께 높은 성능을 제공하는 확장형 볼륨입니다.</block>
+  <block id="b72566f4d301c9dec06189b65b061300" category="inline-link">API를 사용하여 FlexGroup 볼륨을 만드는 방법을 알아보세요.</block>
+  <block id="7e22f91f39a086e048c658886855471a" category="list-text"><block ref="7e22f91f39a086e048c658886855471a" category="inline-link-rx"></block></block>
+  <block id="e7461a0e7365faaf906e51d1b1097e0a" category="section-title">NetApp 콘솔에서 ONTAP 시스템 관리자에 액세스</block>
+  <block id="9bf279f44fa1199c88b295609de7537a" category="paragraph">콘솔 내에서 ONTAP 시스템 관리자 인터페이스에 직접 액세스할 수 있습니다.</block>
+  <block id="8eb2deaa21e5bd2cb3cb15dfa00cd221" category="paragraph">콘솔에서 ONTAP 시스템 관리자에 액세스하면 다음과 같은 추가 관리 기능을 사용할 수 있습니다.</block>
+  <block id="f3c3ee89c80d32726f5f937c07631d1c" category="list-text">고급 스토리지 관리</block>
+  <block id="81988711ef6c9af40c8e8973f25c0bed" category="paragraph">일관성 그룹, 공유, Q트리, 할당량 및 스토리지 VM을 관리합니다.</block>
+  <block id="62735a856683757bf28f1f02f97c151c" category="list-text">네트워킹 관리</block>
+  <block id="9fe3a531f2a0b0fa8d13b28253cecfae" category="paragraph">IP 공간, 네트워크 인터페이스, 포트셋 및 이더넷 포트를 관리합니다.</block>
+  <block id="5da3380058f326675f5268466ae0c24f" category="list-text">이벤트 및 채용</block>
+  <block id="59536015b2a8a8d499cbe947387acb5e" category="paragraph">이벤트 로그, 시스템 알림, 작업 및 감사 로그를 확인합니다.</block>
+  <block id="3f20b3134627198be1e0ff879a88cd8f" category="list-text">고급 데이터 보호</block>
+  <block id="18edb92cf2cbf5a1d60be48cff4de617" category="paragraph">스토리지 VM, LUN 및 일관성 그룹을 보호합니다.</block>
+  <block id="f17e729a409e6c0faa3ddab50e856b07" category="list-text">호스트 관리</block>
+  <block id="36eae32729ecc4b53ba38b252bc6b356" category="paragraph">SAN 이니시에이터 그룹과 NFS 클라이언트를 설정합니다.</block>
+  <block id="1f0b82560627b660c6c6958a1df834b8" category="section-title">지원되는 구성</block>
+  <block id="8cc569c03bd345c450afe055c793f724" category="paragraph">9.10.0 이상을 실행하는 온프레미스 ONTAP 클러스터에서는 System Manager를 통한 고급 관리가 지원됩니다.</block>
+  <block id="0f1ca4e2133610fdc8b23e4db3f7cb0c" category="paragraph">GovCloud 지역이나 아웃바운드 인터넷 액세스가 없는 지역에서는 System Manager 통합이 지원되지 않습니다.</block>
+  <block id="e646e16bee8b32e6ea29e30d01970a6c" category="section-title">제한 사항</block>
+  <block id="336f2f04e5298afbd5aa6cb9ef65c0a6" category="paragraph">콘솔을 통해 ONTAP System Manager에 액세스할 경우 온프레미스 ONTAP 클러스터에서는 몇 가지 System Manager 기능이 지원되지 않습니다.</block>
+  <block id="480454c8f8beef2524f1fbdddc48ea12" category="inline-link-macro">제한 사항 목록을 검토하세요</block>
+  <block id="bfe73fc0abe25019e3e0d76f17653911" category="paragraph"><block ref="736a4b96dd4361a68ef1dd0a557122e0" category="inline-link-macro-rx"></block> .</block>
+  <block id="8fafecc267da91bb6fb518f47268f73d" category="paragraph">시스템의 시스템 관리자를 엽니다.</block>
+  <block id="44b7ffdcf84f31c030ae673e3b4e8e6e" category="list-text">오른쪽 패널의 *서비스*에서 *시스템 관리자*를 찾아 *열기*를 선택합니다.</block>
+  <block id="c754fa00d5ed3d48cea99de36d7621eb" category="list-text">확인 메시지가 나타나면 내용을 읽고 *닫기*를 선택하세요.</block>
+  <block id="2384fee5ec28c392c4824455705673ad" category="list-text">ONTAP 관리하려면 System Manager를 사용하세요.</block>
+  <block id="2c069ca180c796bc045f42b645e2abc2" category="list-text">필요한 경우 *표준 보기로 전환*을 선택하여 콘솔을 통해 표준 관리로 돌아갑니다.</block>
+  <block id="15bab318d1405cd84d8a70ed7aaecf79" category="inline-image-macro">표준 보기로 전환 옵션을 보여주는 온프레미스 ONTAP 시스템의 스크린샷입니다.</block>
+  <block id="3087bb399b70b702117806fdbcf6d90b" category="paragraph"><block ref="3087bb399b70b702117806fdbcf6d90b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="5d82c1ade2b4a73465d28377bf1ee806" category="section-title">시스템 관리자에 대한 도움말 받기</block>
+  <block id="eb75aeb3b4b2b9734ba3e52f5483f0b2" category="inline-link">ONTAP 문서</block>
+  <block id="9c1bd416df0d466347865d11e934dec2" category="paragraph">ONTAP 과 함께 System Manager를 사용하는 데 도움이 필요한 경우 다음을 참조하세요.<block ref="e4712fca3ed0fd9138bc58dbf36327e9" category="inline-link-rx"></block> 단계별 지침을 확인하세요.  도움이 될 만한 몇 가지 링크를 소개합니다.</block>
+  <block id="b9cf2d579e6b088870d384fe9910b52f" category="inline-link">볼륨 및 LUN 관리</block>
+  <block id="8fc667c489390551a74eb985b297d37a" category="list-text"><block ref="8fc667c489390551a74eb985b297d37a" category="inline-link-rx"></block></block>
+  <block id="3e49e5936cffd2e96856c25fa0417df2" category="inline-link">네트워크 관리</block>
+  <block id="57614f27dec39901199cca4b61cebfe9" category="list-text"><block ref="57614f27dec39901199cca4b61cebfe9" category="inline-link-rx"></block></block>
+  <block id="7e7397a7b79323762c61941fc0e6b5f9" category="inline-link">데이터 보호</block>
+  <block id="168463a2e30ac746441036fb49df730e" category="list-text"><block ref="168463a2e30ac746441036fb49df730e" category="inline-link-rx"></block></block>
+  <block id="ea4016495f0c69205df568b441270dea" category="section-title">NetApp 데이터 서비스 활성화</block>
+  <block id="0e645dc9accc33c592fb30035dcb36d7" category="paragraph">시스템에서 NetApp 데이터 서비스를 활성화하여 데이터 복제, 데이터 백업, 데이터 계층화 등의 작업을 수행하세요.</block>
+  <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="list-text">데이터 복제</block>
+  <block id="7dfe1792c76bc1bec7f64c0b01460178" category="list-text">Cloud Volumes ONTAP 시스템, Amazon FSx for ONTAP 파일 시스템 및 ONTAP 클러스터 간에 데이터를 복제합니다.  일회성 데이터 복제를 선택하면 클라우드로 데이터를 이동하거나 클라우드에서 데이터를 가져오는 데 도움이 되고, 반복 일정을 선택하면 재해 복구나 장기 데이터 보존에 도움이 됩니다.</block>
+  <block id="279d4e41c00858c0d60b99ca08f46b19" category="inline-link">NetApp 복제 설명서</block>
+  <block id="2367e8bf588f100d84a2c29e29e8c907" category="paragraph"><block ref="2367e8bf588f100d84a2c29e29e8c907" category="inline-link-rx"></block></block>
+  <block id="b76ae88aa754ea86825b84c8badae90a" category="list-text">데이터 백업</block>
+  <block id="32f4a4b77e8bb8a5997c35c84f226d07" category="list-text">온프레미스 ONTAP 시스템의 데이터를 클라우드의 저렴한 객체 스토리지로 백업하세요.</block>
+  <block id="bef219d35a4468480b0ce759221cdceb" category="inline-link">NetApp 백업 및 복구 설명서</block>
+  <block id="7375334c3c7c9a083e03c7131f344586" category="paragraph"><block ref="7375334c3c7c9a083e03c7131f344586" category="inline-link-rx"></block></block>
+  <block id="b62196e30035e69996a2d1d3a9d64116" category="list-text">데이터를 스캔, 매핑 및 분류하세요</block>
+  <block id="6c8d5da78ab1fbae76a8c2a84cdb0a7c" category="list-text">회사 내 클러스터를 스캔하여 데이터를 매핑하고 분류하며 개인 정보를 식별합니다.  이를 통해 보안 및 규정 준수 위험을 줄이고, 스토리지 비용을 절감하고, 데이터 마이그레이션 프로젝트를 지원할 수 있습니다.</block>
+  <block id="e6d9434fa5832019fb3968212fe539d4" category="inline-link">NetApp 데이터 분류 문서</block>
+  <block id="c61fc509c7d144be9b40f399aec87219" category="paragraph"><block ref="c61fc509c7d144be9b40f399aec87219" category="inline-link-rx"></block></block>
+  <block id="840a495adf1ad99ebc0b2945d0d37848" category="list-text">데이터를 클라우드로 계층화</block>
+  <block id="bdaba8e114e06250b64623fa35d279e2" category="list-text">ONTAP 클러스터에서 비활성 데이터를 자동으로 개체 스토리지로 계층화하여 데이터 센터를 클라우드로 확장합니다.</block>
+  <block id="dbf638b2df9fdd6b028f3a442df69395" category="inline-link">NetApp 클라우드 계층화 설명서</block>
+  <block id="bff727b4f0c46a7987ef3660c6da5046" category="paragraph"><block ref="bff727b4f0c46a7987ef3660c6da5046" category="inline-link-rx"></block></block>
+  <block id="81e1fcaa1ce96a674b79e47a02d7f4ba" category="list-text">용량이 부족한 클러스터 식별</block>
+  <block id="51e044d8773594c45c2c2e9e8516f151" category="list-text">용량이 부족한 클러스터를 파악하고 현재 용량과 예상 용량을 검토합니다.</block>
+  <block id="65d5453513b11126367650b2ace7b545" category="inline-link">NetApp 수명 주기 계획 문서</block>
+  <block id="f62b0728a78dac8e9d66e3b316922630" category="paragraph"><block ref="f62b0728a78dac8e9d66e3b316922630" category="inline-link-rx"></block></block>
+  <block id="e25e74f7a3a1427deef4f7de959c877b" category="summary">NetApp 콘솔 에이전트를 사용하지 않고 온프레미스 ONTAP 클러스터를 직접 검색한 경우 NetApp 콘솔에서 시스템을 열고 ONTAP 시스템 관리자를 사용하여 클러스터를 관리할 수 있습니다.</block>
+  <block id="f220a85318c5d7c44ae499953fe06af6" category="doc">NetApp 콘솔에서 직접 검색된 클러스터 관리</block>
+  <block id="6812f9c2da4f9b9bd904f6a6b0f3a843" category="paragraph">콘솔 에이전트를 사용하지 않고 온프레미스 ONTAP 클러스터를 직접 발견한 경우 콘솔에서 시스템을 열어 클러스터를 관리하고 ONTAP 시스템 관리자에 액세스할 수 있습니다.</block>
+  <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">시작하기 전에</block>
+  <block id="30f10af7823f75e5b832221041c2b2c7" category="paragraph">일부 시스템 관리자 기능은 콘솔에서 지원되지 않습니다.</block>
+  <block id="5258b0ad03422027351074f593328453" category="list-text">*시스템* 페이지에서 온-프레미스 ONTAP 시스템을 선택합니다.</block>
+  <block id="585bfbcb83296ccf6f29d325347284b8" category="paragraph">시스템 아이콘은 직접 검색된 클러스터를 식별합니다.</block>
+  <block id="be8e40c832ae54c93886321cf506bda7" category="inline-image-macro">시스템 페이지에 나타나는 시스템 아이콘의 스크린샷</block>
+  <block id="a321eaeada5485d9a16aa7b0157e75f3" category="paragraph"><block ref="a321eaeada5485d9a16aa7b0157e75f3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="d6a0741adb3101b3ac8caa5bee63eb9e" category="list-text">메시지가 표시되면 ONTAP 자격 증명을 입력하세요.</block>
+  <block id="b82d5da63e23eb494fa2701700cbc876" category="paragraph">자격 증명을 저장하지 않으면 시스템을 열 때마다 ONTAP 자격 증명을 사용하여 로그인하라는 메시지가 표시됩니다. 저장하면 매번 입력할 필요가 없습니다. 사용자 자격 증명 페이지에서 이러한 자격 증명을 관리할 수 있습니다.  어떤 경우에는 콘솔 관리자(조직 관리자 역할)가 이 옵션을 비활성화하여 매번 자격 증명을 입력하도록 요구할 수 있습니다.</block>
+  <block id="c4d0d6d40840ebb3d4f4f87b4309d6b6" category="inline-image-macro">ONTAP 클러스터에 대한 사용자 이름과 비밀번호를 입력하라는 메시지를 보여주는 스크린샷입니다.</block>
+  <block id="ae0f0582f8fc53d392de639973d7187a" category="paragraph"><block ref="ae0f0582f8fc53d392de639973d7187a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="01b2e40f70aa5b1647bad39c0e42ed66" category="paragraph">ONTAP 과 함께 System Manager를 사용하는 데 도움이 필요한 경우 다음을 참조하세요.<block ref="e4712fca3ed0fd9138bc58dbf36327e9" category="inline-link-rx"></block> 단계별 지침을 확인하세요.  다음 링크에서는 추가 지침을 제공합니다.</block>
+  <block id="dd4fd7614d5aea1d6f631403bb514c52" category="summary">더 이상 NetApp 콘솔에서 관리하지 않으려면 온프레미스 ONTAP 시스템을 제거합니다.</block>
+  <block id="76f38e29c115772351beb41864ff5c81" category="doc">NetApp 콘솔에서 온프레미스 ONTAP 시스템 제거</block>
+  <block id="01ec14985a4fc153f411e09eb8fe4a27" category="paragraph">더 이상 콘솔에서 관리하지 않으려면 온프레미스 ONTAP 시스템을 제거합니다.</block>
+  <block id="dc939254afcbaac455a5533661695230" category="paragraph">저장소 관리자.<block ref="f934f8c47ee938050655a3fea2497dd8" category="inline-link-macro-rx"></block></block>
+  <block id="df296b472c9a688b1de6306b097577a5" category="paragraph">시스템을 제거해도 ONTAP 클러스터에는 영향을 미치지 않습니다.  언제든지 콘솔에서 다시 확인할 수 있습니다.</block>
+  <block id="01244d40060090a6be948854713ddd90" category="list-text">*시스템* 페이지에서 온프레미스 ONTAP 시스템을 선택합니다.</block>
+  <block id="7c9f32f73fa06aecdeb526cf83b2809c" category="list-text">메뉴 아이콘을 선택하고 *작업 공간에서 제거*를 선택하세요.</block>
+  <block id="b7dd0331ad4ede9488c2fd01dda69e83" category="list-text">*제거*를 선택하여 확인하세요.</block>
+  <block id="6269943bbab503c57445a47b04897eaa" category="summary">NetApp 기술 지원에 지원 사례를 개설하려면 먼저 NetApp 콘솔에 NetApp 지원 사이트 계정을 추가한 다음 지원을 위해 등록해야 합니다.</block>
+  <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">지원 등록</block>
+  <block id="776abbf4d80cbef17bd3c86ff37b2257" category="paragraph">NetApp 콘솔과 해당 스토리지 솔루션, 데이터 서비스에 대한 기술 지원을 받으려면 지원 등록이 필요합니다. Cloud Volumes ONTAP 시스템의 주요 워크플로를 활성화하려면 지원 등록도 필요합니다.</block>
+  <block id="ba4e23e03f4354a0f1ef2781272c8477" category="paragraph">지원에 등록해도 클라우드 공급자 파일 서비스에 대한 NetApp 지원은 제공되지 않습니다. 클라우드 공급자 파일 서비스, 해당 인프라 또는 서비스를 사용하는 솔루션과 관련된 기술 지원에 대해서는 해당 제품 설명서의 "도움말 받기"를 참조하세요.</block>
+  <block id="0b0e252af8897fbe981ec6682d2aa33b" category="section-title">지원 등록 개요</block>
+  <block id="192054ad7601240a3e8be54cc5cc548e" category="paragraph">지원 자격을 활성화하기 위한 등록 방법은 두 가지가 있습니다.</block>
+  <block id="869a868c87f6fb61410cfd773b4f1bab" category="list-text">NetApp 콘솔 계정 일련 번호를 등록합니다(콘솔의 지원 리소스 페이지에 있는 20자리 960xxxxxxxxx 일련 번호).</block>
+  <block id="be0b51de4268d87101344aa0368b4403" category="paragraph">이는 콘솔 내의 모든 서비스에 대한 단일 지원 구독 ID 역할을 합니다. 각 콘솔 계정을 등록해야 합니다.</block>
+  <block id="55ff64467cd508971910145ab5d6b3b8" category="list-text">클라우드 공급업체의 마켓플레이스에서 구독과 관련된 Cloud Volumes ONTAP 일련 번호를 등록합니다(20자리 909201xxxxxxxx 일련 번호).</block>
+  <block id="3cf9fb70d6921dd90583621f028a395f" category="paragraph">이러한 일련 번호는 일반적으로 _PAYGO 일련 번호_라고 하며 Cloud Volumes ONTAP 배포 시 NetApp 콘솔에서 생성됩니다.</block>
+  <block id="bf516b6498e37e816d29ae43ae132f74" category="paragraph">두 가지 유형의 일련 번호를 모두 등록하면 지원 티켓 개설 및 자동 사례 생성과 같은 기능을 사용할 수 있습니다. 아래 설명된 대로 콘솔에 NetApp 지원 사이트(NSS) 계정을 추가하여 등록을 완료합니다.</block>
+  <block id="ba5983207e417797fefd5b9374ab4a97" category="section-title">NetApp 지원을 위해 NetApp 콘솔 등록</block>
+  <block id="dcb7105ba6e3d9411b05e726848feb80" category="paragraph">지원을 등록하고 지원 자격을 활성화하려면 NetApp 콘솔 계정의 한 사용자가 NetApp 지원 사이트 계정을 콘솔 로그인과 연결해야 합니다. NetApp 지원에 등록하는 방법은 NetApp 지원 사이트(NSS) 계정이 있는지 여부에 따라 달라집니다.</block>
+  <block id="bf4c731c0ee7f60c8018ad8f96828dda" category="section-title">NSS 계정이 있는 기존 고객</block>
+  <block id="ed5bddb699a442b85bc1bb8e1516fe57" category="paragraph">NSS 계정이 있는 NetApp 고객이라면 콘솔을 통해 지원을 등록하기만 하면 됩니다.</block>
+  <block id="76bc427c3d9c4b81dc353078b942f991" category="list-text">*관리* &gt; *자격 증명*을 선택합니다.</block>
+  <block id="f19ab635e6d5f884a22ee4ce067fdbfd" category="list-text">*사용자 자격 증명*을 선택하세요.</block>
+  <block id="e9451600769b4bf4b20ca941ba9e6d19" category="list-text">*NSS 자격 증명 추가*를 선택하고 NetApp 지원 사이트(NSS) 인증 프롬프트를 따릅니다.</block>
+  <block id="cfc5506589d5a4d055e721267d5f0732" category="list-text">등록 과정이 성공적으로 완료되었는지 확인하려면 도움말 아이콘을 선택하고 *지원*을 선택하세요.</block>
+  <block id="1d4ea9fd10f6cfcd6f6fe1f861d354a4" category="paragraph">*리소스* 페이지에는 귀하의 콘솔 계정이 지원을 위해 등록되어 있다는 내용이 표시됩니다.</block>
+  <block id="afe8240ca62f4b72006980ff64d371b8" category="paragraph">다른 콘솔 사용자는 NetApp 지원 사이트 계정을 로그인과 연결하지 않은 경우 동일한 지원 등록 상태를 볼 수 없습니다. 하지만 그렇다고 해서 귀하의 계정이 지원을 위해 등록되지 않았다는 의미는 아닙니다. 조직 내 한 명의 사용자가 이러한 단계를 따랐다면 귀하의 계정은 등록되었습니다.</block>
+  <block id="1ff5aefce774ec72a211f2b3bb10b950" category="section-title">기존 고객이지만 NSS 계정이 없습니다.</block>
+  <block id="42eaca1e1c2d9e1f04e932eeaa6d129d" category="paragraph">기존 라이선스와 일련 번호는 있지만 NSS 계정이 없는 기존 NetApp 고객인 경우 NSS 계정을 만들고 콘솔 로그인과 연결해야 합니다.</block>
+  <block id="5b2b7f628f804bcb786a097c7e45aa41" category="inline-link">NetApp 지원 사이트 사용자 등록 양식</block>
+  <block id="0c4a8b62da9473fbd5401273c4f85ee0" category="list-text">다음을 완료하여 NetApp 지원 사이트 계정을 만드십시오.<block ref="041bcb6d9bdf91f7d6ac92ae3a196e12" category="inline-link-rx"></block></block>
+  <block id="d61c9f72493817776f392db42ac446a2" category="list-text">일반적으로 * NetApp 고객/최종 사용자*인 적절한 사용자 수준을 선택하세요.</block>
+  <block id="bd33c4539c7d6985f6edafd4a4f2ba1d" category="list-text">위에 사용된 콘솔 계정 일련번호(960xxxx)를 일련번호 필드에 꼭 복사해 두세요. 이렇게 하면 계정 처리가 빨라집니다.</block>
+  <block id="9b1f48f88cd439b7a50fe3e76eb8a853" category="list-text">다음 단계를 완료하여 새 NSS 계정을 콘솔 로그인과 연결하세요.<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block> .</block>
+  <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">NetApp 의 새로운 기능</block>
+  <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">NetApp 처음 사용하시고 NSS 계정이 없으신 경우 아래의 각 단계를 따르세요.</block>
+  <block id="e7e9f49f4584c68b9d97c578e73b7583" category="list-text">콘솔의 오른쪽 상단에서 도움말 아이콘을 선택하고 *지원*을 선택하세요.</block>
+  <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">지원 등록 페이지에서 계정 ID 일련 번호를 찾으세요.</block>
+  <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">지원이 첫 번째 옵션으로 나열된 도움말 메뉴의 스크린샷</block>
+  <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">NetApp 지원 등록 사이트</block>
+  <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">로 이동<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> *저는 등록된 NetApp 고객이 아닙니다*를 선택하세요.</block>
+  <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">필수 입력란(빨간색 별표가 있는 항목)을 작성해 주세요.</block>
+  <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">*제품군* 필드에서 *클라우드 관리자*를 선택한 다음 해당 청구 제공자를 선택하세요.</block>
+  <block id="50a1dc01b7312307c34a888071586955" category="list-text">위의 2단계에서 계정 일련번호를 복사하고 보안 검사를 완료한 다음 NetApp의 글로벌 데이터 개인정보 보호정책을 읽었는지 확인하세요.</block>
+  <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">이 안전한 거래를 마무리하기 위해 제공된 사서함으로 이메일이 즉시 전송됩니다. 몇 분 안에 인증 이메일이 도착하지 않으면 스팸 폴더를 확인하세요.</block>
+  <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">이메일 내에서 작업을 확인하세요.</block>
+  <block id="201080500e946070a2e4873042507c77" category="paragraph">확인을 클릭하면 귀하의 요청이 NetApp 에 ​​제출되고 NetApp 지원 사이트 계정을 만드는 것이 좋습니다.</block>
+  <block id="a2454703f88e5bf5b433ae850a87151b" category="list-text">위에 사용된 계정 일련번호(960xxxx)를 일련번호 필드에 꼭 복사해 두세요. 이렇게 하면 처리 속도가 빨라집니다.</block>
+  <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">이 과정에서 NetApp 귀하에게 연락을 드릴 것입니다. 이는 신규 사용자를 대상으로 한 일회성 온보딩 과정입니다.</block>
+  <block id="629757336278be576456cf315303b178" category="paragraph">NetApp 지원 사이트 계정이 있으면 아래 단계를 완료하여 계정을 콘솔 로그인과 연결하세요.<block ref="2f3aba04ec49ee5f0573a6c80a1b9df2" category="inline-xref-macro-rx"></block> .</block>
+  <block id="3e616bae81890a6c8fae17c9b45af152" category="section-title">Cloud Volumes ONTAP 지원을 위한 NSS 자격 증명 연결</block>
+  <block id="f22d1a855e255746a6b925a3b22f7838" category="paragraph">Cloud Volumes ONTAP 에 대한 다음 주요 워크플로를 활성화하려면 NetApp 지원 사이트 자격 증명을 콘솔 계정과 연결해야 합니다.</block>
+  <block id="a0518a10626dc11fd00e2d20265ad240" category="list-text">지원을 위해 Pay-as-you-go Cloud Volumes ONTAP 시스템 등록</block>
+  <block id="321aadf78ef73521712291b7aba6411f" category="paragraph">시스템 지원을 활성화하고 NetApp 기술 지원 리소스에 액세스하려면 NSS 계정을 제공해야 합니다.</block>
+  <block id="d51b2b497db445a16b1c9583c1abbb59" category="list-text">BYOL(Bring Your Own License)을 사용할 때 Cloud Volumes ONTAP 배포</block>
+  <block id="f3cd224f9506684fa3b5e2b89b2a566c" category="paragraph">콘솔에서 라이선스 키를 업로드하고 구매한 기간 동안 구독을 활성화하려면 NSS 계정을 제공해야 합니다. 여기에는 기간 갱신을 위한 자동 업데이트가 포함됩니다.</block>
+  <block id="f5135b68b75a8404803a1eb438e40c5e" category="list-text">Cloud Volumes ONTAP 소프트웨어를 최신 릴리스로 업그레이드</block>
+  <block id="daf104544b5203a46e1580e1b8583f1f" category="paragraph">NSS 자격 증명을 NetApp 콘솔 계정과 연결하는 것은 콘솔 사용자 로그인과 연결된 NSS 계정과 다릅니다.</block>
+  <block id="5bc1315a63455544e7a917a7cc968939" category="paragraph">이러한 NSS 자격 증명은 특정 콘솔 계정 ID와 연결됩니다. 콘솔 조직에 속한 사용자는 *지원 &gt; NSS 관리*에서 이러한 자격 증명에 액세스할 수 있습니다.</block>
+  <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">고객 수준 계정이 있는 경우 하나 이상의 NSS 계정을 추가할 수 있습니다.</block>
+  <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">파트너 또는 리셀러 계정이 있는 경우 하나 이상의 NSS 계정을 추가할 수 있지만 고객 수준 계정과 함께 추가할 수는 없습니다.</block>
+  <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c0e0b7ff0de9558404e9b77ece42948a" category="list-text">*NSS 관리 &gt; NSS 계정 추가*를 선택하세요.</block>
+  <block id="85b9386ed443776127e099931d73448a" category="list-text">메시지가 표시되면 *계속*을 선택하여 Microsoft 로그인 페이지로 리디렉션됩니다.</block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp 지원 및 라이선싱에 특화된 인증 서비스를 위한 ID 공급자로 Microsoft Entra ID를 사용합니다.</block>
+  <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">로그인 페이지에서 NetApp 지원 사이트에 등록된 이메일 주소와 비밀번호를 입력하여 인증 과정을 진행합니다.</block>
+  <block id="7687b0a57d5cb728d9fb892dfc814715" category="paragraph">이러한 작업을 통해 콘솔은 라이선스 다운로드, 소프트웨어 업그레이드 확인, 향후 지원 등록과 같은 작업에 NSS 계정을 사용할 수 있습니다.</block>
+  <block id="ec084bb25ed5b934c09b361069c246b2" category="list-text">NSS 계정은 고객 수준 계정이어야 합니다(게스트나 임시 계정이어서는 안 됩니다). 여러 개의 고객 수준 NSS 계정을 가질 수 있습니다.</block>
+  <block id="27387009488fe78dcc7cb7e3e432792f" category="list-text">해당 계정이 파트너 수준 계정인 경우 NSS 계정은 하나만 있을 수 있습니다. 고객 수준 NSS 계정을 추가하려고 하는데 파트너 수준 계정이 이미 있는 경우 다음과 같은 오류 메시지가 표시됩니다.</block>
+  <block id="d926847e4634e19a1aa7358becc0fa27" category="paragraph">"이 계정에는 다른 유형의 NSS 사용자가 이미 있으므로 NSS 고객 유형이 허용되지 않습니다."</block>
+  <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">기존 고객 수준 NSS 계정이 있고 파트너 수준 계정을 추가하려는 경우에도 마찬가지입니다.</block>
+  <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">로그인에 성공하면 NetApp NSS 사용자 이름을 저장합니다.</block>
+  <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">세 개의 수평 점으로 구성된 아이콘</block>
+  <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">이는 귀하의 이메일에 매핑되는 시스템 생성 ID입니다. *NSS 관리* 페이지에서 이메일을 표시할 수 있습니다.<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> 메뉴.</block>
+  <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">로그인 자격 증명 토큰을 새로 고쳐야 하는 경우 *자격 증명 업데이트* 옵션도 있습니다.<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block> 메뉴.</block>
+  <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">이 옵션을 사용하면 다시 로그인하라는 메시지가 표시됩니다. 이 계정의 토큰은 90일 후에 만료됩니다. 이에 대한 알림이 게시됩니다.</block>
+  <block id="e0edd80b0e8de4011b4f65a694972a94" category="summary">디지털 지갑을 사용하면 온프레미스 ONTAP 클러스터 각각에 대한 계약 세부 정보를 볼 수 있습니다.  아직 클러스터를 발견하지 못했다면 디지털 지갑에서도 발견할 수 있습니다.</block>
+  <block id="4bbcdd6338e8631576e63f1156b1c51d" category="doc">클러스터 정보 및 계약 세부 정보 보기</block>
+  <block id="6df3323445fef3ae34ed813f1100ca8e" category="paragraph">NetApp 콘솔에서 온프레미스 ONTAP 클러스터 각각에 대한 계약 세부 정보를 볼 수 있습니다. 아직 클러스터를 찾지 못했다면 *구독 및 라이선스* 페이지에서 찾을 수도 있습니다.</block>
+  <block id="93214f7aede3b63ad14457a9b7aa0d59" category="paragraph">저장소 관리자 또는 저장소 뷰어.<block ref="f934f8c47ee938050655a3fea2497dd8" category="inline-link-macro-rx"></block></block>
+  <block id="f37fdd0902b8053298a78162a62ee3ca" category="inline-link">콘솔에서 온프레미스 ONTAP 클러스터의 라이선스 관리에 대해 자세히 알아보세요.</block>
+  <block id="f4eeb0c21981518065c13b60deb3e7ee" category="paragraph"><block ref="f4eeb0c21981518065c13b60deb3e7ee" category="inline-link-rx"></block></block>
+  <block id="f38bfe4e4ca70348bab102b16fa118d4" category="summary">BlueXP 에서 온프레미스 ONTAP 클러스터 관리의 새로운 기능에 대해 알아보세요.</block>
+  <block id="d49f4ce16fe87aeaa9f7ac3eec77a6b9" category="doc">NetApp 콘솔의 온프레미스 ONTAP 클러스터에 대한 새로운 기능</block>
+  <block id="2377e3aaf0d094a2e815b5f4f66a56d0" category="paragraph">NetApp 콘솔에서 온프레미스 ONTAP 클러스터 관리의 새로운 기능에 대해 알아보세요.</block>
+  <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">2025년 10월 6일</block>
+  <block id="e48502083eb8949c8f65b2ccddd5adec" category="section-title">2025년 5월 12일</block>
+  <block id="d415b73567ff8e090cdf21c20afeaa64" category="section-title">2024년 11월 26일</block>
+  <block id="e5182edc3707e8e354c40ab7fa819f39" category="section-title">2024년 10월 7일</block>
+  <block id="9d5b3307d5a7d5905623bf21ab049bdd" category="section-title">2024년 4월 22일</block>
+  <block id="c94e28d852ce517312825c9ed339fc1d" category="section-title">2023년 7월 30일</block>
+  <block id="f73b546b2cf111d3a080443f2cd3b97f" category="section-title">2023년 7월 2일</block>
+  <block id="11f4fef53a39b0e83d4fdb9f922e768e" category="section-title">내 부동산에서 클러스터 발견</block>
+  <block id="4573c689742769edc01e3f45205fd784" category="paragraph">이제 BlueXP 로그인에 대한 이메일 주소와 연결된 ONTAP 클러스터를 기반으로 BlueXP 미리 검색한 클러스터를 선택하여 *Canvas &gt; My estate*에서 온프레미스 ONTAP 클러스터를 검색할 수 있습니다.</block>
+  <block id="5a7621b5dce7d879d4fc86499c34c6e6" category="inline-link">내 부동산 페이지에서 클러스터를 검색하는 방법을 알아보세요.</block>
+  <block id="1951934b46748440d19112b4ffcd364d" category="paragraph"><block ref="7f676133db675e979593f57c98268fc6" category="inline-link-rx"></block> .</block>
+  <block id="7e43a762816453626bbf35533afa1755" category="section-title">2023년 5월 4일</block>
+  <block id="4addbe3fd43e1a48fd8eb999d5f3b487" category="section-title">BlueXP backup and recovery 활성화</block>
+  <block id="f5303ee41218fc978c78d7744749c918" category="inline-link-macro">BlueXP backup and recovery 활성화에 대해 자세히 알아보세요.</block>
+  <block id="b4dac87ad594b04c0dcd76d4227b5f53" category="paragraph">ONTAP 9.13.1부터 커넥터를 사용하여 클러스터를 검색한 경우 시스템 관리자(고급 보기)를 사용하여 BlueXP backup and recovery 활성화할 수 있습니다.<block ref="e052ae4f2be0dcbae408a5e7fa45055e" category="inline-link-macro-rx"></block></block>
+  <block id="f3d662d271f05f454f32718233b273b8" category="section-title">ONTAP 버전 이미지 및 하드웨어 펌웨어 업그레이드</block>
+  <block id="31599c36bc63510a259d9bd99e50d225" category="inline-link-macro">ONTAP 및 펌웨어 업그레이드에 대해 자세히 알아보세요</block>
+  <block id="8fc7dd0bb44c44f9797d86872cb017cc" category="paragraph">ONTAP 9.10.1부터 시스템 관리자(고급 보기)를 사용하여 ONTAP 버전 이미지와 하드웨어 펌웨어를 업그레이드할 수 있습니다.  최신 상태를 유지하려면 자동 업그레이드를 선택하거나, BlueXP 사용하여 액세스할 수 있는 로컬 컴퓨터나 서버에서 수동으로 업데이트할 수 있습니다.<block ref="d994c74c98eb05bb27c8a6afc3cc2159" category="inline-link-macro-rx"></block></block>
+  <block id="09dfe5e2e7b8574b925ad72bc7875409" category="admonition">커넥터가 없으면 로컬 머신에서 업데이트를 할 수 없고 BlueXP 사용하여 액세스할 수 있는 서버에서만 업데이트를 할 수 있습니다.</block>
+  <block id="102787ed6297b34a7504b527e91d01d3" category="section-title">2023년 4월 3일</block>
+  <block id="44a722c1e42cdb4002c75bb29403670b" category="section-title">BlueXP 콘솔의 단일 검색 옵션</block>
+  <block id="7023e56782327af6f409e1889ae33345" category="paragraph">BlueXP 콘솔에서 온프레미스 ONTAP 클러스터를 검색하면 이제 단일 옵션이 표시됩니다.</block>
+  <block id="d70ed695b081fff2505f285b0540727b" category="inline-image-macro">작업 환경을 생성할 때 사용 가능한 온프레미스 ONTAP 옵션을 보여주는 스크린샷</block>
+  <block id="16f044147dbed62a5d79cc67ff4c4e12" category="paragraph"><block ref="16f044147dbed62a5d79cc67ff4c4e12" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3d85937cd401956877664b5f7128cc5d" category="paragraph">이전에는 직접 검색과 커넥터를 통한 검색에 대한 흐름이 별도로 있었습니다.  두 옵션 모두 여전히 사용 가능하지만 단일 흐름으로 병합되었습니다.</block>
+  <block id="251a667be8662557b7aba30c53380da3" category="paragraph">검색 프로세스를 시작하면 BlueXP 다음과 같이 클러스터를 검색합니다.</block>
+  <block id="02067bb3de9c60175abe8c4b7d81c3c2" category="list-text">ONTAP 클러스터에 연결된 활성 커넥터가 있는 경우 BlueXP 해당 커넥터를 사용하여 클러스터를 검색하고 관리합니다.</block>
+  <block id="1f98df6cf22b8e11ecbe762c7b523860" category="list-text">커넥터가 없거나 커넥터가 ONTAP 클러스터에 연결되어 있지 않으면 BlueXP 자동으로 직접 검색 및 관리 옵션을 사용합니다.</block>
+  <block id="873b328fabdfb8db13a38e03c836d37b" category="inline-link">발견 및 관리 옵션에 대해 자세히 알아보세요</block>
+  <block id="558e7420e0dccdf8c6209c99cb12de8c" category="paragraph"><block ref="8f8244e4b9ad47d49332b24703323193" category="inline-link-rx"></block> .</block>
+  <block id="1f7138998459804601fc351f8d442e29" category="section-title">2023년 1월 1일</block>
+  <block id="f2e4e4f7b0b864863bfac74f4383a826" category="section-title">ONTAP 자격 증명 저장</block>
+  <block id="7d830b76e4f0014bb7468c045f40070d" category="paragraph">커넥터를 사용하지 않고 직접 검색된 온프레미스 ONTAP 작업 환경을 열면 이제 ONTAP 클러스터 자격 증명을 저장할 수 있는 옵션이 제공되므로 작업 환경을 열 때마다 입력할 필요가 없습니다.</block>
+  <block id="8a08a7490f38dacd86c415a138d60aea" category="inline-link">이 옵션에 대해 자세히 알아보세요.</block>
+  <block id="a23c373384e67cc6a8bdb7e286aa5040" category="paragraph"><block ref="a23c373384e67cc6a8bdb7e286aa5040" category="inline-link-rx"></block></block>
+  <block id="83ec139c80a3d5b2f11f1a94eed47cd2" category="section-title">2022년 12월 4일</block>
+  <block id="b5690ceb7beb4242754890f225e479d3" category="section-title">온프레미스 ONTAP 클러스터를 검색하는 새로운 방법</block>
+  <block id="c01d068bb0abdf0bdf6a772adc67e2cd" category="paragraph">이제 커넥터를 사용하지 않고도 온프레미스 ONTAP 클러스터를 직접 검색할 수 있습니다.  이 옵션을 선택하면 시스템 관리자를 통해서만 클러스터를 관리할 수 있습니다.  이러한 유형의 작업 환경에서는 BlueXP 데이터 서비스를 활성화할 수 없습니다.</block>
+  <block id="336404297eaddf0051e1d62c3d3bb48e" category="inline-link">이 발견 및 관리 옵션에 대해 자세히 알아보세요</block>
+  <block id="d5ea4df2d2834605f028deaaf0d0e4b7" category="paragraph"><block ref="5b619b4d77180540fb45f8f2d3b7390b" category="inline-link-rx"></block> .</block>
+  <block id="ee1ef6cf0f3971b44eb2abcac958fb8d" category="section-title">FlexGroup 볼륨</block>
+  <block id="c712ad51a932168a912654cc42bbce87" category="paragraph">커넥터를 통해 검색된 온프레미스 ONTAP 클러스터의 경우, 이제 BlueXP 의 표준 보기에 System Manager 또는 ONTAP CLI를 통해 생성된 FlexGroup 볼륨이 표시됩니다.  볼륨을 복제하고, 설정을 편집하고, 삭제하는 등의 방법으로 볼륨을 관리할 수도 있습니다.</block>
+  <block id="2907843476579cb2696e8e0e783a2a07" category="inline-image-macro">온프레미스 ONTAP 클러스터의 볼륨 페이지에서 FlexGroup 볼륨을 보여주는 스크린샷입니다.</block>
+  <block id="dc5b52fbc51f76a35c3e45df4d428946" category="paragraph"><block ref="dc5b52fbc51f76a35c3e45df4d428946" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1c081854506aed2f757f753e779bc45f" category="paragraph">BlueXP FlexGroup 볼륨 생성을 지원하지 않습니다.  FlexGroup 볼륨을 생성하려면 계속해서 System Manager나 CLI를 사용해야 합니다.</block>
+  <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022년 9월 18일</block>
+  <block id="c8328d07fc05c4708c68f547ce6f5e77" category="section-title">새로운 개요 페이지</block>
+  <block id="8e41db9b51f790909ef80a064153f722" category="paragraph">온프레미스 ONTAP 클러스터에 대한 주요 세부 정보를 제공하는 새로운 개요 페이지를 도입했습니다.  예를 들어, 이제 스토리지 효율성, 용량 분포, 시스템 정보와 같은 세부 정보를 볼 수 있습니다.</block>
+  <block id="d35ea0fa6a3d81047f0a36a7dfac1c07" category="paragraph">데이터 계층화, 데이터 복제 및 백업을 지원하는 다른 BlueXP 서비스와의 통합에 대한 세부 정보도 볼 수 있습니다.</block>
+  <block id="fba766c98683be4af93f93b5d7909f1e" category="inline-image-macro">온프레미스 ONTAP 클러스터의 개요 페이지를 보여주는 스크린샷입니다.</block>
+  <block id="78b1fedbe8da959c777a0ee21f8ffd2b" category="paragraph"><block ref="78b1fedbe8da959c777a0ee21f8ffd2b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c76ff3fb4e35074fc6f04c1cb8ea02af" category="section-title">재설계된 볼륨 페이지</block>
+  <block id="99cbfcbab5c608668044fc3849d8db46" category="paragraph">클러스터의 볼륨에 대한 요약을 제공하기 위해 볼륨 페이지를 재설계했습니다.  요약에서는 총 볼륨 수, 프로비저닝된 용량, 사용 및 예약된 용량, 계층화된 데이터 양을 보여줍니다.</block>
+  <block id="2f82cdfc06b6747c85937b5cceabaaee" category="inline-image-macro">온프레미스 ONTAP 클러스터의 볼륨 페이지를 보여주는 스크린샷입니다.</block>
+  <block id="c88a605be9a3ab0b60a88e3190ea5a35" category="paragraph"><block ref="c88a605be9a3ab0b60a88e3190ea5a35" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f8b475a3fefebada77a30229238d0a1a" category="section-title">2022년 6월 7일</block>
+  <block id="ffe3ec3b5faef58a758d9449470882a0" category="section-title">새로운 고급 보기</block>
+  <block id="5549a52d6578bcb66138c7319ef4ea11" category="paragraph">온프레미스 ONTAP 클러스터의 고급 관리를 수행해야 하는 경우 ONTAP 시스템과 함께 제공되는 관리 인터페이스인 ONTAP System Manager를 사용하여 해당 작업을 수행할 수 있습니다.  고급 관리를 위해 Cloud Manager를 벗어날 필요가 없도록 Cloud Manager 내부에 System Manager 인터페이스를 직접 포함했습니다.</block>
+  <block id="99721ad2e6d601b2966a9d9e1c7de770" category="paragraph">이 고급 보기는 9.10.0 이상을 실행하는 온프레미스 ONTAP 클러스터에서 미리 보기로 사용할 수 있습니다. 우리는 이 경험을 더욱 개선하고 향후 릴리스에서 향상된 기능을 추가할 계획입니다. 제품 내 채팅을 이용해 피드백을 보내주세요.</block>
+  <block id="b1f50daaafce361695fc65132af507a0" category="inline-link-macro">커넥터를 사용하여 검색된 클러스터를 관리하는 방법을 알아보세요.</block>
+  <block id="2dad31dff556d88636e28fd5a3f6e2ac" category="list-text"><block ref="2dad31dff556d88636e28fd5a3f6e2ac" category="inline-link-macro-rx"></block></block>
+  <block id="ba26e4556a0f160834687982b0479336" category="section-title">2022년 2월 27일</block>
+  <block id="c09e2822c570628d904cc9ae1b81258c" category="section-title">디지털 지갑에서 "온프레미스 ONTAP" 탭을 사용할 수 있습니다.</block>
+  <block id="b6476152a5181e4e223915202e88e1a9" category="paragraph">이제 온프레미스 ONTAP 클러스터의 인벤토리와 하드웨어 및 서비스 계약 만료일을 볼 수 있습니다. 클러스터에 대한 추가 세부 정보도 제공됩니다.</block>
+  <block id="c363f739f5bdf65a6ab4cae2b97b0d8a" category="inline-link">이 중요한 온프레미스 클러스터 정보를 보는 방법을 알아보세요</block>
+  <block id="708ffb45fd0b5501a732cfc35fbc5f96" category="paragraph"><block ref="ae6c564b336ca8e35b8022cee2674c1a" category="inline-link-rx"></block> . 클러스터에 대한 NetApp 지원 사이트 계정(NSS)이 필요하며, NSS 자격 증명을 Cloud Manager 계정에 연결해야 합니다.</block>
+  <block id="ef1bf4095b622ba80ac24b48b8e45eac" category="section-title">2022년 1월 11일</block>
+  <block id="43129a2fa4cbb252b200eba8ad6d79d2" category="section-title">온프레미스 ONTAP 클러스터의 볼륨에 추가하는 태그는 태그 지정 서비스와 함께 사용할 수 있습니다.</block>
+  <block id="ba38e2fd40d303ca0ee880c6170d261e" category="paragraph">볼륨에 추가하는 태그는 이제 애플리케이션 템플릿 서비스의 태그 지정 기능과 연결되어 리소스 관리를 구성하고 간소화하는 데 도움이 됩니다.</block>
+  <block id="815875df5fff32fea9f6fdbf1cbef929" category="sidebar">NetApp 콘솔에서 NetApp AFF 및 FAS 시스템을 관리하여 스토리지를 프로비저닝하고, 데이터를 복제하고, 중요한 클라우드 기반 데이터 서비스를 구성하세요.</block>
+  <block id="94f32f47073dfcc881de05302c1e3400" category="sidebar">NetApp 콘솔을 사용한 온프레미스 ONTAP 클러스터 관리</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">시작하기</block>
+  <block id="7a57cd895ed6c692c6eaacc459f5c5b2" category="sidebar">온프레미스 ONTAP 클러스터 관리에 대해 알아보세요</block>
+  <block id="a1ebf612d281c8e7fb16bbfa253b9627" category="sidebar">ONTAP 클러스터를 찾아보세요</block>
+  <block id="b35f676cd57c5084bb41b8d6a60f6523" category="sidebar">NetApp 콘솔에서 온프레미스 ONTAP 클러스터 관리</block>
+  <block id="86c7810a751199da86e2984eefab0cbf" category="sidebar">직접 발견된 클러스터 관리</block>
+  <block id="0178bb7fb4ec8e073676fa0da5569b44" category="sidebar">콘솔 에이전트로 검색된 클러스터 관리</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">블로그 및 커뮤니티</block>
+  <block id="cc58d3a9b2264c4fd8cb1d3f61b90bdc" category="sidebar">NetApp 데이터 서비스</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 커뮤니티</block>
+  <block id="eaf9642551d4f86b536ff28bb60b7751" category="sidebar">NetApp 콘솔의 온프레미스 ONTAP 클러스터</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">릴리스 노트</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
+  <block id="482723983a4f2af954e36ff41e567451" category="sidebar">알려진 제한 사항</block>
+  <block id="54b737e9455930faa1699b8dc97ccd5d" category="sidebar">온프레미스 ONTAP 클러스터 관리에 대해 알아보세요</block>
+  <block id="c5fbee6586294d81141f8dd158707985" category="sidebar">온프레미스 ONTAP 클러스터를 찾아보세요</block>
+  <block id="cfa980e1df20173742498c19249c0f50" category="sidebar">온프레미스 ONTAP 클러스터 관리</block>
+  <block id="9783331c17eb2368b5f57b943b56dd4b" category="sidebar">콘솔 에이전트로 검색된 클러스터 관리</block>
+  <block id="d3db502b671c154b98dfced0b397de36" category="sidebar">클러스터 정보 및 계약 세부 정보 보기</block>
+  <block id="3421bf5b6f922329d7ac7ff73a34370f" category="sidebar">온프레미스 ONTAP 시스템 제거</block>
+  <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">지식과 지원</block>
+</blocks>
