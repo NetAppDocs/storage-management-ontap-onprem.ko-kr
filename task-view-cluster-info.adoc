@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-view-cluster-info.html 
 keywords: software contract, hardware contract, contracts, expiration date, expired, software contract 
-summary: 디지털 지갑을 사용하면 온프레미스 ONTAP 클러스터 각각에 대한 계약 세부 정보를 볼 수 있습니다.  아직 클러스터를 발견하지 못했다면 디지털 지갑에서도 발견할 수 있습니다. 
+summary: 온프레미스 ONTAP 클러스터 각각에 대한 계약 세부 정보는 *구독 및 라이선스* 페이지에서 확인할 수 있습니다. 
 ---
 = 클러스터 정보 및 계약 세부 정보 보기
 :hardbreaks:
@@ -14,9 +14,18 @@ summary: 디지털 지갑을 사용하면 온프레미스 ONTAP 클러스터 각
 
 
 [role="lead"]
-NetApp Console 에서 온프레미스 ONTAP 클러스터 각각에 대한 계약 세부 정보를 볼 수 있습니다. 아직 클러스터를 찾지 못했다면 *구독 및 라이선스* 페이지에서 찾을 수도 있습니다.
+NetApp Console 에서 용량 정보와 라이선스 정보를 직접 확인할 수 있습니다.
 
-.필수 콘솔 역할:
-저장소 관리자 또는 저장소 뷰어.link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["NetApp Console 액세스 역할에 대해 알아보세요."^]
+
+
+== 용량 정보를 확인하세요
+
+*시스템* 페이지에서 온프레미스 ONTAP 클러스터를 선택하면 *시스템 세부 정보* 페이지에 총 용량, 사용 용량 및 사용 가능 용량을 포함한 클러스터의 용량 정보가 표시됩니다.
+
+
+
+== 라이선스 및 계약 세부 정보를 확인하세요.
+
+온프레미스 ONTAP 클러스터 각각에 대한 계약 세부 정보는 *구독 및 라이선스* 페이지에서 확인할 수 있습니다.
 
 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-on-prem-clusters.html["콘솔에서 온프레미스 ONTAP 클러스터의 라이선스 관리에 대해 자세히 알아보세요."^]

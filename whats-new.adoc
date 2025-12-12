@@ -18,6 +18,12 @@ NetApp Console 에서 온프레미스 ONTAP 클러스터 관리의 새로운 기
 
 
 
+== 2025년 12월 8일
+
+<stdin>에서 해결되지 않은 지시문 - include::_whatsnew/2025-12-08.adoc[]
+
+
+
 == 2025년 10월 6일
 
 

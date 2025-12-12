@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-discovering-ontap.html 
-keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, roles, dubscriptions, licenses, digital advisor 
+keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, roles, subscriptions, licenses, digital advisor 
 summary: NetApp Console 에서 온프레미스 ONTAP 클러스터를 검색하여 콘솔에서 사용할 수 있는 ONTAP System Manager를 사용하여 볼륨을 관리하고 고급 관리를 수행할 수 있습니다. 
 ---
 = NetApp Console 에서 온프레미스 ONTAP 클러스터를 검색하세요
@@ -25,7 +25,7 @@ NetApp Console 에서 온프레미스 ONTAP 클러스터를 검색하여 콘솔�
 
 온프레미스 ONTAP 클러스터를 콘솔에 추가하는 방법은 두 가지가 있습니다.  선택하는 방법은 조직에 콘솔 에이전트가 설치되어 있는지 여부에 따라 달라집니다.
 
-콘솔 에이전트를 사용한 검색 및 관리:: 이 옵션을 사용하면 다음 기능을 사용하여 ONTAP 8.3 이상을 실행하는 클러스터를 관리할 수 있습니다.
+콘솔 에이전트를 사용한 검색 및 관리:: 이 옵션을 사용하면 다음 기능을 이용하여 ONTAP 실행하는 클러스터를 관리할 수 있습니다.
 +
 --
 * NetApp Console 통해 기본 볼륨 작업을 기본적으로 제공합니다.
@@ -135,7 +135,7 @@ NetApp Console 에 콘솔 에이전트를 추가하기로 결정한 경우 *검�
 
 . *발견*을 선택하세요.
 +
-콘솔 에이전트가 없고 콘솔에서 IP 주소에 접근할 수 없는 경우 콘솔 에이전트를 만들라는 메시지가 표시됩니다.  콘솔 에이전트가 없으면 콘솔 관리자에게 문의하여 콘솔 에이전트를 만드세요.
+콘솔 에이전트가 없고 콘솔에서 해당 IP 주소에 연결할 수 없는 경우 콘솔 에이전트를 생성하라는 메시지가 표시됩니다. 콘솔 에이전트가 없으면 콘솔 관리자에게 문의하여 콘솔 에이전트를 만드세요.
 
 
 
